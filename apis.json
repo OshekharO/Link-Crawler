@@ -1,0 +1,150 @@
+{
+    "movie": [
+        {
+            "name": "VidCloud",
+            "url": "https://vidcloud.stream/api/imdbId.html"
+        },
+        {
+            "name": "VidEmbed",
+            "url": "https://vidcloud.stream/imdbId.html"
+        },
+        {
+            "name": "123movies",
+            "url": "https://googlvideo.com/jadeed.php?imdb=imdbId&server_name=vcu"
+        },
+        {
+            "name": "2Embed",
+            "url": "https://www.2embed.ru/embed/imdb/movie?id=imdbId"
+        },
+        {
+            "name": "APIMovieDB",
+            "url": "https://v2.apimdb.net/e/movie/imdbId"
+        },
+        {
+            "name": "CurtStream",
+            "url": "https://curtstream.com/movies/imdb/imdbId"
+        },
+        {
+            "name": "DBGDrivePlayer",
+            "url": "https://databasegdriveplayer.co/player.php?imdb=imdbId"
+        },
+        {
+            "name": "DBGo",
+            "url": "https://dbgo.fun/imdb.php?id=imdbId"
+        },
+        {
+            "name": "DoodStream",
+            "url": "https://v2.apimdb.net/playS/doodstream/imdbId/movolo.vercel.app/?t=movie"
+        },
+        {
+            "name": "DoodStream [MIRROR]",
+            "url": "https://v2.apimdb.net/playS/doodstream2/imdbId/movolo.vercel.app/?t=movie"
+        },
+        {
+            "name": "EmbedForFree",
+            "url": "https://embedforfree.co/imdb?id=imdbId"
+        },
+        {
+            "name": "FireSonic",
+            "url": "https://firesonic.sc/play_video.php?video_id=imdbId"
+        },
+        {
+            "name": "Free Streaming API",
+            "url": "https://fsapi.xyz/movie/imdbId"
+        },
+        {
+            "name": "GOMO",
+            "url": "https://gomo.to/movie/imdbId"
+        },
+        {
+            "name": "Mixdrop",
+            "url": "https://v2.apimdb.net/playS/mixdrop/imdbId/movolo.vercel.app/?t=movie"
+        },
+        {
+            "name": "StreamSB",
+            "url": "https://v2.apimdb.net/playS/streamsb/imdbId/movolo.vercel.app/?t=movie"
+        },
+        {
+            "name": "SuperEmbed",
+            "url": "https://getsuperembed.link/?video_id=imdbId&player_sources_toggle_type=2&preferred_server=12&player_primary_color=000000&player_secondary_color=0f0f0f"
+        },
+        {
+            "name": "Trailers.to",
+            "url": "https://trailers.to/player/embed/imdb/imdbId"
+        },
+        {
+            "name": "VidSource",
+            "url": "https://v2.vidsrc.me/embed/imdbId/"
+        },
+        {
+            "name": "Voxzer",
+            "url": "https://v2.apimdb.net/playS/voxzer/imdbId/movolo.vercel.app/?t=movie"
+        }
+    ],
+    "tv": [
+        {
+            "name": "123movies",
+            "url": "https://googlvideo.com/tmdb_api.php?se=s3as&ep=3pi&tmdb=tmdbId&server_name=vcu"
+        },
+        {
+            "name": "2Embed",
+            "url": "https://www.2embed.ru/embed/tmdb/tv?id=tmdbId&s=s3as&e=3pi"
+        },
+        {
+            "name": "APIMovieDB",
+            "url": "https://v2.apimdb.net/e/tmdb/tv/tmdbId/s3as/3pi/"
+        },
+        {
+            "name": "CurtStream",
+            "url": "https://curtstream.com/series/tmdb/tmdbId/s3as/3pi/"
+        },
+        {
+            "name": "DBGDrivePlayer",
+            "url": "https://databasegdriveplayer.co/player.php?type=series&tmdb=tmdbId&season=s3as&episode=3pi"
+        },
+        {
+            "name": "DBGo",
+            "url": "https://dbgo.fun/imdbse.php?id=imdbId&s=s3as&e=3pi"
+        },
+        {
+            "name": "DoodStream",
+            "url": "https://v2.apimdb.net/playS/doodstream/imdbId-s3as-3pi/movolo.vercel.app/?t=tv"
+        },
+        {
+            "name": "DoodStream [MIRROR]",
+            "url": "https://v2.apimdb.net/playS/doodstream2/imdbId-s3as-3pi/movolo.vercel.app/?t=tv"
+        },
+        {
+            "name": "Free Streaming API",
+            "url": "https://fsapi.xyz/tv-tmdb/tmdbId-s3as-3pi"
+        },
+        {
+            "name": "Mixdrop",
+            "url": "https://v2.apimdb.net/playS/mixdrop2/imdbId-s3as-3pi/movolo.vercel.app/?t=tv"
+        },
+        {
+            "name": "StreamSB",
+            "url": "https://v2.apimdb.net/playS/streamsb/imdbId-s3as-3pi/movolo.vercel.app/?t=tv"
+        },
+        {
+            "name": "SuperEmbed",
+            "url": "https://getsuperembed.link/?video_id=tmdbId&tmdb=1&season=s3as&episode=3pi&player_sources_toggle_type=2&preferred_server=12&player_primary_color=000000&player_secondary_color=0f0f0f"
+        },
+        {
+            "name": "Trailers.to",
+            "url": "https://trailers.to/player/embed/tmdb/tmdbId/Ss3asE3pi"
+        },
+        {
+            "name": "VidCloud",
+            "url": "https://v2.apimdb.net/playS/vidcloud/imdbId-s3as-3pi/movolo.vercel.app/?t=tv"
+        },
+        {
+            "name": "Voe",
+            "url": "https://v2.apimdb.net/playS/voe/imdbId-s3as-3pi/movolo.vercel.app/?t=tv"
+        },
+        {
+            "name": "VidSource",
+            "url": "https://v2.vidsrc.me/embed/tmdbId/s3as-3pi/"
+        }
+    ]
+}
