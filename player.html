@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API PLAYER</title>
+</head>
+
+<body>
+
+    <ul class="nav nav-tabs mb-3" id="tabs" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="apimdb" data-mdb-toggle="tab" data-mdb-target="#server2" type="button" role="tab" aria-controls="apimdb" aria-selected="true">
+                APIMDB
+            </button>
+  
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="2Embed" data-mdb-toggle="tab" data-mdb-target="#server1" type="button" role="tab" aria-controls="2Embed" aria-selected="true">
+                2Embed
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="dbgo" data-mdb-toggle="tab" data-mdb-target="#server3" type="button" role="tab" aria-controls="dbgo" aria-selected="true">
+                DBGO
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="st" data-mdb-toggle="tab" data-mdb-target="#server4" type="button" role="tab" aria-controls="st" aria-selected="true">
+                Streamtape
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="vidsrc" data-mdb-toggle="tab" data-mdb-target="#server5" type="button" role="tab" aria-controls="vidsrc" aria-selected="true">
+                VidSRC
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="multi" data-mdb-toggle="tab" data-mdb-target="#server6" type="button" role="tab" aria-controls="multi" aria-selected="true">
+                Multi
+            </button>
+        </li>
+    </ul>
+    <div class="tab-content" id="tabsContent">
+        <div class="tab-pane fade" id="server1" role="tabpanel" aria-labelledby="apimdb">
+            <iframe src="https://apimdb.net/e/tmdb/movie/{{ tmdb_id }}" frameborder="0" allowfullscreen="true" width="100%" height="900px" class="movie"></iframe>
+        </div>
+        <div class="tab-pane fade show active" id="server2" role="tabpanel" aria-labelledby="2Embed">
+            <iframe src="https://www.2embed.ru/embed/tmdb/movie?id={{ tmdb_id }}" frameborder="0" allowfullscreen="true" width="100%" height="900px" class="movie"></iframe>
+        </div>
+        <div class="tab-pane fade" id="server3" role="tabpanel" aria-labelledby="dbgo">
+            <iframe src="https://dbgo.fun/video.php?id={{ imdb_id }}" frameborder="0" allowfullscreen="true" width="100%" height="900px" class="movie"></iframe>
+        </div>
+        <div class="tab-pane fade" id="server4" role="tabpanel" aria-labelledby="st">
+            <iframe src="https://api.123movie.cc/imdb.php?imdb={{ imdb_id }}&server=streamtape" frameborder="0" allowfullscreen="true" width="100%" height="900px" class="movie"></iframe>
+        </div>
+        <div class="tab-pane fade" id="server5" role="tabpanel" aria-labelledby="vidsrc">
+            <iframe src="https://vidsrc.me/embed/{{ imdb_id }}" frameborder="0" allowfullscreen="true" width="100%" height="900px" class="movie"></iframe>
+        </div>
+        <div class="tab-pane fade" id="server6" role="tabpanel" aria-labelledby="multi">
+            <iframe src="https://api.123movie.cc/imdb.php?imdb={{ imdb_id }}&server=vcs" frameborder="0" allowfullscreen="true" width="100%" height="900px" class="movie"></iframe>
+        </div>
+    </div>
+    </div>
+
+
+   </body>
+
+</html>
