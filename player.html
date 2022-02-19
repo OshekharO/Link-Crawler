@@ -3,6 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+
 .container {
   position: relative;
   width: 100%;
@@ -20,6 +21,7 @@
   height: 100%;
   border: none;
 }
+
 </style>
 </head>
 <body>
@@ -29,23 +31,23 @@
 </div>
 <br>
 <div class="container"> 
-  <iframe class="responsive-iframe" src="https://www.2embed.ru/embed/tmdb/movie?id={{ tmdb_id }}"></iframe>
+  <iframe sandbox="allow-forms allow-scripts allow-same-origin allow-top-navigation" class="responsive-iframe" src="https://www.2embed.ru/embed/tmdb/movie?id={{ tmdb_id }}"></iframe>
 </div>
 <br>
 <div class="container"> 
-  <iframe class="responsive-iframe" src="https://api.123movie.cc/imdb.php?imdb={{ imdb_id }}&server=vcs"></iframe>
+  <iframe sandbox="allow-forms allow-scripts allow-same-origin allow-top-navigation" class="responsive-iframe" src="https://api.123movie.cc/imdb.php?imdb={{ imdb_id }}&server=vcs"></iframe>
 </div>
 <br>
 <div class="container"> 
-  <iframe class="responsive-iframe" src="https://vidsrc.me/embed/{{ imdb_id }}"></iframe>
+  <iframe sandbox="allow-forms allow-scripts allow-same-origin allow-top-navigation" class="responsive-iframe" src="https://vidsrc.me/embed/{{ imdb_id }}"></iframe>
 </div>
 <br>
 <div class="container"> 
-  <iframe class="responsive-iframe" src="https://api.123movie.cc/imdb.php?imdb={{ imdb_id }}&server=streamtape"></iframe>
+  <iframe sandbox="allow-forms allow-scripts allow-same-origin allow-top-navigation" class="responsive-iframe" src="https://api.123movie.cc/imdb.php?imdb={{ imdb_id }}&server=streamtape"></iframe>
 </div>
 <br>
 <div class="container"> 
-  <iframe class="responsive-iframe" src="https://dbgo.fun/video.php?id={{ imdb_id }}"></iframe>
+  <iframe sandbox="allow-forms allow-scripts allow-same-origin allow-top-navigation" class="responsive-iframe" src="https://dbgo.fun/video.php?id={{ imdb_id }}"></iframe>
 </div>
 
 </body>
