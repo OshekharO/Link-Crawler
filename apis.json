@@ -79,6 +79,18 @@
         {
             "name": "Voxzer",
             "url": "https://v2.apimdb.net/playS/voxzer/imdbId/movolo.vercel.app/?t=movie"
+        },
+        {
+            "name": "databasegdriveplayer",
+            "url": "https://databasegdriveplayer.co/player.php?tmdb={ TMDb_ID }"
+        },
+        {
+            "name": "autoembed",
+            "url": "https://autoembed.xyz/movie/imdb2/{ IMDB_ID }"
+        },
+        {
+            "name": "gogoplay1",
+            "url": "https://gogoplay1.com/streaming.php?id=${imdb_id}"
         }
     ],
     "tv": [
