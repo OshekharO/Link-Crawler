@@ -1,82 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-
-.container {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
-}
-
-.responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-
-</style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MoviesHub</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='mdb.dark.min.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='all.min.css') }}" />
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
 </head>
+
 <body>
 
-<div class="container"> 
-  <iframe class="responsive-iframe" src="https://apimdb.net/e/tmdb/movie/{{ tmdb_id }}"></iframe>
-</div>
-<br>
-<div class="container"> 
-  <iframe sandbox="allow-forms allow-scripts allow-same-origin allow-top-navigation" class="responsive-iframe" src="https://www.2embed.ru/embed/tmdb/movie?id={{ tmdb_id }}"></iframe>
-</div>
-<br>
-<div class="container"> 
-  <iframe class="responsive-iframe" src="https://api.123movie.cc/imdb.php?imdb={{ imdb_id }}&server=vcs"></iframe>
-</div>
-<br>
-<div class="container"> 
-  <iframe class="responsive-iframe" src="https://v2.vidsrc.me/embed/{{ imdb_id }}"></iframe>
-</div>
-<br>
-<div class="container"> 
-  <iframe class="responsive-iframe" src="https://api.123movie.cc/imdb.php?imdb={{ imdb_id }}&server=streamtape"></iframe>
-</div>
-<br>
-<div class="container"> 
-  <iframe sandbox="allow-forms allow-scripts allow-same-origin allow-top-navigation" class="responsive-iframe" src="https://dbgo.fun/video.php?id={{ imdb_id }}"></iframe>
-</div>
-<br>
-// Only for anime movies ( can be used for anime series also )
-<div class="container"> 
-  <iframe class="responsive-iframe" src="https://gogoplay1.com/streaming.php?id=${imdb_id}"></iframe>
-</div>
-<br>
-<div class="container"> 
-  <iframe sandbox="allow-forms allow-scripts allow-same-origin allow-top-navigation" class="responsive-iframe" src="https://googlvideo.com/jadeed.php?imdb={{ imdb_id }}&server_name=vcu"></iframe>
-</div>
-<br>
-<div class="container"> 
-  <iframe sandbox="allow-forms allow-scripts allow-same-origin allow-top-navigation" class="responsive-iframe" src="https://googlvideo.com/jadeed.php?imdb={{ imdb_id }}"></iframe>
-</div>
-<br>
-<div class="container"> 
-  <iframe sandbox="allow-forms allow-scripts allow-same-origin allow-top-navigation" class="responsive-iframe" src="https://firesonic.sc/play_video.php?video_id={{ imdb_id }}"></iframe>
-</div>
-<br>
-<div class="container"> 
-  <iframe sandbox="allow-forms allow-scripts allow-same-origin allow-top-navigation" class="responsive-iframe" src="https://fsapi.xyz/tmdb-movie/{TMDb_ID}"></iframe>
-</div>
-<br>
-<div class="container"> 
-  <iframe sandbox="allow-forms allow-scripts allow-same-origin allow-top-navigation" class="responsive-iframe" src="https://gomo.to/movie/{{ imdb_id }}"></iframe>
-</div>
-<br>
-<div class="container"> 
-  <iframe sandbox="allow-forms allow-scripts allow-same-origin allow-top-navigation" class="responsive-iframe" src="https://databasegdriveplayer.co/player.php?tmdb={{ TMDb_ID }}"></iframe>
-</div>
+    <ul class="nav nav-tabs mb-3" id="tabs" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="2Embed" data-mdb-toggle="tab" data-mdb-target="#server1" type="button" role="tab" aria-controls="2Embed" aria-selected="true">
+                2Embed
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="apimdb" data-mdb-toggle="tab" data-mdb-target="#server2" type="button" role="tab" aria-controls="apimdb" aria-selected="true">
+                APIMDB
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="dbgo" data-mdb-toggle="tab" data-mdb-target="#server3" type="button" role="tab" aria-controls="dbgo" aria-selected="true">
+                DBGO
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="st" data-mdb-toggle="tab" data-mdb-target="#server4" type="button" role="tab" aria-controls="st" aria-selected="true">
+                Streamtape
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="vidsrc" data-mdb-toggle="tab" data-mdb-target="#server5" type="button" role="tab" aria-controls="vidsrc" aria-selected="true">
+                VidSRC
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="multi" data-mdb-toggle="tab" data-mdb-target="#server6" type="button" role="tab" aria-controls="multi" aria-selected="true">
+                Multi
+            </button>
+        </li>
+    </ul>
+    <div class="tab-content" id="tabsContent">
+        <div class="tab-pane fade show active" id="server1" role="tabpanel" aria-labelledby="2Embed">
+            <iframe src="https://www.2embed.ru/embed/tmdb/movie?id={{ tmdb_id }}" frameborder="0" allowfullscreen="true" width="100%" height="900px" class="movie"></iframe>
+        </div>
+        <div class="tab-pane fade" id="server2" role="tabpanel" aria-labelledby="apimdb">
+            <iframe src="https://apimdb.net/e/tmdb/movie/{{ tmdb_id }}" frameborder="0" allowfullscreen="true" width="100%" height="900px" class="movie"></iframe>
+        </div>
+        <div class="tab-pane fade" id="server3" role="tabpanel" aria-labelledby="dbgo">
+            <iframe src="https://dbgo.fun/video.php?id={{ imdb_id }}" frameborder="0" allowfullscreen="true" width="100%" height="900px" class="movie"></iframe>
+        </div>
+        <div class="tab-pane fade" id="server4" role="tabpanel" aria-labelledby="st">
+            <iframe src="https://api.123movie.cc/imdb.php?imdb={{ imdb_id }}&server=streamtape" frameborder="0" allowfullscreen="true" width="100%" height="900px" class="movie"></iframe>
+        </div>
+        <div class="tab-pane fade" id="server5" role="tabpanel" aria-labelledby="vidsrc">
+            <iframe src="https://vidsrc.me/embed/{{ imdb_id }}" frameborder="0" allowfullscreen="true" width="100%" height="900px" class="movie"></iframe>
+        </div>
+        <div class="tab-pane fade" id="server6" role="tabpanel" aria-labelledby="multi">
+            <iframe src="https://api.123movie.cc/imdb.php?imdb={{ imdb_id }}&server=vcs" frameborder="0" allowfullscreen="true" width="100%" height="900px" class="movie"></iframe>
+        </div>
+    </div>
+    <style>
+        .movie-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+        }
+    </style>
+    </div>
+    <script src="{{ url_for('static', filename='mdb.min.js') }}"></script>
 </body>
+
 </html>
