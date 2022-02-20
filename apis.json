@@ -91,6 +91,10 @@
         {
             "name": "gogoplay1",
             "url": "https://gogoplay1.com/streaming.php?id=${imdb_id}"
+        },
+        {
+            "name": "flixtv",
+            "url": "https://flixtv.club/movie/{ IMDB_ID }"
         }
     ],
     "tv": [
@@ -157,6 +161,10 @@
         {
             "name": "VidSource",
             "url": "https://v2.vidsrc.me/embed/tmdbId/s3as-3pi/"
+        },
+        {
+            "name": "flixtv",
+            "url": "https://flixtv.club/tv-show/(TMDB_ID)-(Season"
         }
     ]
 }
