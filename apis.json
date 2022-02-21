@@ -1,166 +1,50 @@
  [
-        {   "type": "movie",
-            "name": "VidCloud",
-            "url": "https://vidcloud.stream/api/imdbId.html"
-        },
-        {   "type": "movie",
-            "name": "VidEmbed",
-            "url": "https://vidcloud.stream/imdbId.html"
-        },
-        {   "type": "movie",
+        {
             "name": "123movies",
-            "url": "https://googlvideo.com/jadeed.php?imdb=imdbId&server_name=vcu"
+            "url": "https://googlvideo.com/"
         },
-        {   "type": "movie",
+        { 
             "name": "2Embed",
-            "url": "https://www.2embed.ru/embed/imdb/movie?id=imdbId"
+            "url": "https://www.2embed.ru/"
         },
-        {   "type": "movie",
+        {
             "name": "APIMovieDB",
-            "url": "https://v2.apimdb.net/e/movie/imdbId"
+            "url": "https://v2.apimdb.net/"
         },
-        {   "type": "movie",
-            "name": "CurtStream",
-            "url": "https://curtstream.com/movies/imdb/imdbId"
-        },
-        {   "type": "movie",
+        {
             "name": "DBGDrivePlayer",
-            "url": "https://databasegdriveplayer.co/player.php?imdb=imdbId"
+            "url": "https://databasegdriveplayer.co/"
         },
-        {   "type": "movie",
+        {
             "name": "DBGo",
-            "url": "https://dbgo.fun/imdb.php?id=imdbId"
+            "url": "https://dbgo.fun/"
         },
-        {   "type": "movie",
-            "name": "DoodStream",
-            "url": "https://v2.apimdb.net/playS/doodstream/imdbId/movolo.vercel.app/?t=movie"
-        },
-        {   "type": "movie",
-            "name": "DoodStream [MIRROR]",
-            "url": "https://v2.apimdb.net/playS/doodstream2/imdbId/movolo.vercel.app/?t=movie"
-        },
-        {   "type": "movie",
-            "name": "EmbedForFree",
-            "url": "https://embedforfree.co/imdb?id=imdbId"
-        },
-        {   "type": "movie",
+        {
             "name": "FireSonic",
-            "url": "https://firesonic.sc/play_video.php?video_id=imdbId"
+            "url": "https://firesonic.sc/play_video.php?video_id={imdbId}"
         },
-        {   "type": "movie",
+        {
             "name": "Free Streaming API",
-            "url": "https://fsapi.xyz/movie/imdbId"
+            "url": "https://fsapi.xyz/"
         },
-        {   "type": "movie",
+        {
             "name": "GOMO",
-            "url": "https://gomo.to/movie/imdbId"
+            "url": "https://gomo.to/movie/{imdbId}"
         },
-        {   "type": "movie",
-            "name": "Mixdrop",
-            "url": "https://v2.apimdb.net/playS/mixdrop/imdbId/movolo.vercel.app/?t=movie"
-        },
-        {   "type": "movie",
-            "name": "StreamSB",
-            "url": "https://v2.apimdb.net/playS/streamsb/imdbId/movolo.vercel.app/?t=movie"
-        },
-        {   "type": "movie",
-            "name": "SuperEmbed",
-            "url": "https://getsuperembed.link/?video_id=imdbId&player_sources_toggle_type=2&preferred_server=12&player_primary_color=000000&player_secondary_color=0f0f0f"
-        },
-        {   "type": "movie",
-            "name": "Trailers.to",
-            "url": "https://trailers.to/player/embed/imdb/imdbId"
-        },
-        {   "type": "movie",
+        {
             "name": "VidSource",
-            "url": "https://v2.vidsrc.me/embed/imdbId/"
+            "url": "https://vidsrc.me/"
         },
-        {   "type": "movie",
-            "name": "Voxzer",
-            "url": "https://v2.apimdb.net/playS/voxzer/imdbId/movolo.vercel.app/?t=movie"
-        },
-        {   "type": "movie",
+        {
             "name": "databasegdriveplayer",
-            "url": "https://databasegdriveplayer.co/player.php?tmdb={ TMDb_ID }"
+            "url": "https://databasegdriveplayer.co/player.php?tmdb={TMDb_ID}"
         },
-        {   "type": "movie",
+        {
             "name": "autoembed",
-            "url": "https://autoembed.xyz/movie/imdb2/{ IMDB_ID }"
+            "url": "https://autoembed.xyz/"
         },
-        {   "type": "movie",
-            "name": "gogoplay1",
-            "url": "https://gogoplay1.com/streaming.php?id=${imdb_id}"
-        },
-        {   "type": "movie",
-            "name": "flixtv",
-            "url": "https://flixtv.club/movie/{ IMDB_ID }"
-        },
-        {   "type": "series",
-            "name": "123movies",
-            "url": "https://googlvideo.com/tmdb_api.php?se=s3as&ep=3pi&tmdb=tmdbId&server_name=vcu"
-        },
-        {   "type": "series",
-            "name": "2Embed",
-            "url": "https://www.2embed.ru/embed/tmdb/tv?id=tmdbId&s=s3as&e=3pi"
-        },
-        {   "type": "series",
-            "name": "APIMovieDB",
-            "url": "https://v2.apimdb.net/e/tmdb/tv/tmdbId/s3as/3pi/"
-        },
-        {   "type": "series",
-            "name": "CurtStream",
-            "url": "https://curtstream.com/series/tmdb/tmdbId/s3as/3pi/"
-        },
-        {   "type": "series",
-            "name": "DBGDrivePlayer",
-            "url": "https://databasegdriveplayer.co/player.php?type=series&tmdb=tmdbId&season=s3as&episode=3pi"
-        },
-        {   "type": "series",
-            "name": "DBGo",
-            "url": "https://dbgo.fun/imdbse.php?id=imdbId&s=s3as&e=3pi"
-        },
-        {   "type": "series",
-            "name": "DoodStream",
-            "url": "https://v2.apimdb.net/playS/doodstream/imdbId-s3as-3pi/movolo.vercel.app/?t=tv"
-        },
-        {   "type": "series",
-            "name": "DoodStream [MIRROR]",
-            "url": "https://v2.apimdb.net/playS/doodstream2/imdbId-s3as-3pi/movolo.vercel.app/?t=tv"
-        },
-        {   "type": "series",
-            "name": "Free Streaming API",
-            "url": "https://fsapi.xyz/tv-tmdb/tmdbId-s3as-3pi"
-        },
-        {   "type": "series",
-            "name": "Mixdrop",
-            "url": "https://v2.apimdb.net/playS/mixdrop2/imdbId-s3as-3pi/movolo.vercel.app/?t=tv"
-        },
-        {   "type": "series",
-            "name": "StreamSB",
-            "url": "https://v2.apimdb.net/playS/streamsb/imdbId-s3as-3pi/movolo.vercel.app/?t=tv"
-        },
-        {   "type": "series",
-            "name": "SuperEmbed",
-            "url": "https://getsuperembed.link/?video_id=tmdbId&tmdb=1&season=s3as&episode=3pi&player_sources_toggle_type=2&preferred_server=12&player_primary_color=000000&player_secondary_color=0f0f0f"
-        },
-        {   "type": "series",
-            "name": "Trailers.to",
-            "url": "https://trailers.to/player/embed/tmdb/tmdbId/Ss3asE3pi"
-        },
-        {   "type": "series",
-            "name": "VidCloud",
-            "url": "https://v2.apimdb.net/playS/vidcloud/imdbId-s3as-3pi/movolo.vercel.app/?t=tv"
-        },
-        {   "type": "series",
-            "name": "Voe",
-            "url": "https://v2.apimdb.net/playS/voe/imdbId-s3as-3pi/movolo.vercel.app/?t=tv"
-        },
-        {   "type": "series",
-            "name": "VidSource",
-            "url": "https://v2.vidsrc.me/embed/tmdbId/s3as-3pi/"
-        },
-        {   "type": "series",
-            "name": "flixtv",
-            "url": "https://flixtv.club/tv-show/(TMDB_ID)-(Season"
+        {
+            "name": "123movie",
+            "url": "https://api.123movie.cc/"
         }
     ]
