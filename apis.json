@@ -36,11 +36,15 @@
             "url": "https://vidsrc.me/"
         },
         {
-            "name": "databasegdriveplayer",
+            "name": "Superembed",
+            "url": "https://www.superembed.stream/"
+        },
+        {
+            "name": "Databasegdriveplayer",
             "url": "https://databasegdriveplayer.co/player.php?tmdb={TMDb_ID}"
         },
         {
-            "name": "autoembed",
+            "name": "Autoembed",
             "url": "https://autoembed.xyz/"
         },
         {
