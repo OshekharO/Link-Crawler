@@ -1,23 +1,23 @@
  [
         {
             "name": "123movies",
-            "url": "https://googlvideo.com/"
+            "url": "https://googlvideo.com"
         },
         { 
             "name": "2Embed",
-            "url": "https://www.2embed.ru/"
+            "url": "https://www.2embed.ru"
         },
         {
             "name": "APIMovieDB",
-            "url": "https://v2.apimdb.net/"
+            "url": "https://v2.apimdb.net"
         },
         {
             "name": "DBGDrivePlayer",
-            "url": "https://databasegdriveplayer.co/"
+            "url": "https://databasegdriveplayer.co"
         },
         {
             "name": "DBGo",
-            "url": "https://dbgo.fun/"
+            "url": "https://dbgo.fun"
         },
         {
             "name": "FireSonic",
@@ -25,7 +25,7 @@
         },
         {
             "name": "Free Streaming API",
-            "url": "https://fsapi.xyz/"
+            "url": "https://fsapi.xyz"
         },
         {
             "name": "GOMO",
@@ -33,11 +33,11 @@
         },
         {
             "name": "VidSource",
-            "url": "https://vidsrc.me/"
+            "url": "https://vidsrc.me"
         },
         {
             "name": "Superembed",
-            "url": "https://www.superembed.stream/"
+            "url": "https://www.superembed.stream"
         },
         {
             "name": "Databasegdriveplayer",
@@ -45,7 +45,7 @@
         },
         {
             "name": "Autoembed",
-            "url": "https://autoembed.xyz/"
+            "url": "https://autoembed.xyz"
         },
         {
             "name": "1movietv",
@@ -56,7 +56,11 @@
             "url": "https://api.gdriveplayer.us"
         },
         {
+            "name": "Streamo",
+            "url": "https://streamo.cc"
+        },
+        {
             "name": "123movie",
-            "url": "https://api.123movie.cc/"
+            "url": "https://api.123movie.cc"
         }
     ]
