@@ -52,6 +52,10 @@
             "url": "https://1movietv.com"
         },
         {
+            "name": "Gdriveplayer",
+            "url": "https://api.gdriveplayer.us"
+        },
+        {
             "name": "123movie",
             "url": "https://api.123movie.cc/"
         }
