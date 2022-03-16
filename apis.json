@@ -48,6 +48,10 @@
             "url": "https://autoembed.xyz/"
         },
         {
+            "name": "1movietv",
+            "url": "https://1movietv.com"
+        },
+        {
             "name": "123movie",
             "url": "https://api.123movie.cc/"
         }
