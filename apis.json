@@ -7,6 +7,10 @@
             "name": "2Embed",
             "url": "https://www.2embed.ru"
         },
+        { 
+            "name": "2Embed",
+            "url": "https://2embed.org"
+        },
         {
             "name": "APIMovieDB",
             "url": "https://v2.apimdb.net"
