@@ -5,7 +5,11 @@
         },
         { 
             "name": "2Embed",
-            "url": "https://www.2embed.ru"
+            "url": "https://www.2embed.to"
+        },
+        { 
+            "name": "Openvids",
+            "url": "https://openvids.io"
         },
         { 
             "name": "2Embed",
@@ -46,14 +50,6 @@
         {
             "name": "Databasegdriveplayer",
             "url": "https://databasegdriveplayer.co/player.php?tmdb={TMDb_ID}"
-        },
-        {
-            "name": "Autoembed",
-            "url": "https://autoembed.xyz"
-        },
-        {
-            "name": "1movietv",
-            "url": "https://1movietv.com"
         },
         {
             "name": "Gdriveplayer",
