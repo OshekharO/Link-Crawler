@@ -23,6 +23,10 @@
             "name": "2Embed",
             "url": "https://2embed.org"
         },
+        { 
+            "name": "2Embed",
+            "url": "https://moviehab.com"
+        },
         {
             "name": "APIMovieDB",
             "url": "https://v2.apimdb.net"
