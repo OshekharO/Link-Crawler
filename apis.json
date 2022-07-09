@@ -12,6 +12,10 @@
             "url": "https://openvids.io"
         },
         { 
+            "name": "MoviesHunters",
+            "url": "https://api.movieshunters.com"
+        },
+        { 
             "name": "2Embed",
             "url": "https://2embed.org"
         },
