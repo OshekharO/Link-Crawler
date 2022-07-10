@@ -16,6 +16,10 @@
             "url": "https://imdbembed.xyz"
         },
         { 
+            "name": "Fembed",
+            "url": "https://fembed.ro"
+        },
+        { 
             "name": "MoviesHunters",
             "url": "https://api.movieshunters.com"
         },
