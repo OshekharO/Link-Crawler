@@ -16,6 +16,18 @@
             "url": "https://onionflix.org"
         },
         { 
+            "name": "SmashyStream",
+            "url": "https://hub.smashystream.com"
+        },
+        { 
+            "name": "EmbedWorld",
+            "url": "https://embedworld.xyz"
+        },
+        { 
+            "name": "Cinedb",
+            "url": "https://cinedb.top"
+        },
+        { 
             "name": "ImdbEmbed",
             "url": "https://imdbembed.xyz"
         },
