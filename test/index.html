@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+<style>
+table {
+  font-family: 'Open Sans', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #2C2F33;
+  padding: 8px;
+  text-align: left;
+  font-size: 14px;
+}
+
+th {
+  background-color: #23272A;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #23272A;
+  color: white;
+}
+.url {
+   color: white;
+}
+
+@media screen and (max-width: 600px) {
+    td {
+        font-size: 12px;
+    }
+}
+
+
+</style>
+  </head>
+  <body>
+      <table id="data-table"></table>
+  </body>
+
+<script> 
+fetch('https://raw.githubusercontent.com/OshekharO/Link-Crawler/main/apis.json')
+    .then(response => response.json())
+    .then(data => {
+        let table = document.getElementById('data-table');
+        for (let item of data) {
+            let row = document.createElement('tr');
+            for (let key in item) {
+                let cell = document.createElement('td');
+                if (key === "url") {
+                    let link = document.createElement('a');
+                    link.href = item[key];
+                    link.innerHTML = item[key];
+                    link.target = "_blank";
+                    cell.appendChild(link);
+                } else {
+                    cell.innerHTML = item[key];
+                }
+                row.appendChild(cell);
+            }
+            table.appendChild(row);
+        }
+    });
+
+</script>
+</html>
