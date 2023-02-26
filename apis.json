@@ -16,36 +16,12 @@
             "url": "https://2embed.biz"
         },
         { 
-            "name": "Openvids",
-            "url": "https://openvids.io"
-        },
-        { 
             "name": "OnionFlix",
             "url": "https://onionflix.org"
         },
         { 
-            "name": "SmashyStream",
-            "url": "https://hub.smashystream.com"
-        },
-        { 
             "name": "EmbedWorld",
             "url": "https://embedworld.xyz"
-        },
-        { 
-            "name": "Cinedb",
-            "url": "https://cinedb.top"
-        },
-        { 
-            "name": "ImdbEmbed",
-            "url": "https://imdbembed.xyz"
-        },
-        { 
-            "name": "Fembed",
-            "url": "https://fembed.ro"
-        },
-        { 
-            "name": "MoviesHunters",
-            "url": "https://api.movieshunters.com"
         },
         { 
             "name": "2Embed",
@@ -56,8 +32,8 @@
             "url": "https://moviehab.com"
         },
         {
-            "name": "APIMovieDB",
-            "url": "https://v2.apimdb.net"
+            "name": "Consumet",
+            "url": "https://docs.consumet.org"
         },
         {
             "name": "DBGDrivePlayer",
@@ -72,8 +48,8 @@
             "url": "https://firesonic.sc/play_video.php?video_id={imdbId}"
         },
         {
-            "name": "Free Streaming API",
-            "url": "https://fsapi.xyz"
+            "name": "Autoembed",
+            "url": "https://autoembed.to"
         },
         {
             "name": "GOMO",
@@ -88,16 +64,8 @@
             "url": "https://www.superembed.stream"
         },
         {
-            "name": "Databasegdriveplayer",
-            "url": "https://databasegdriveplayer.co/player.php?tmdb={TMDb_ID}"
-        },
-        {
             "name": "Gdriveplayer",
             "url": "https://api.gdriveplayer.us"
-        },
-        {
-            "name": "Streamo",
-            "url": "https://streamo.cc"
         },
         {
             "name": "123movie",
