@@ -2,41 +2,84 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Api Entertainment</title>
+    <title>Api Details</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- INCLUDING GOOGLE FONT AND BOOTSTRAP CSS -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- INCLUDING GOOGLE FONT, JQUERY AND BOOTSTRAP CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0-beta1/css/bootstrap.min.css">
-    
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
     <!-- ADDITIONAL CSS FOR STYLING -->
     <style>
-      body {
-        font-family: 'Roboto', sans-serif;
-        background-color: #36393f;
-        color: #dcddde;
-      }
-      .container {
-        max-width: 800px;
-      }
-      table {
-        background-color: #2f3136;
-        border-radius: 5px;
-        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-      }
-      th {
-        border-bottom: 1px solid #4f545c;
-      }
-      th, td {
-        border: none;
-      }
+        body {
+            box-sizing: border-box;
+            background-color: #121212;
+            scroll-behavior: smooth;
+        }
+
+        .card {
+            width: 80%;
+            height: 80%;
+            --border-radius: 15px;
+            --border-width: 4px;
+            appearance: none;
+            position: relative;
+            padding: 1em 2em;
+            border: 0;
+            background: rgb(5, 5, 22);
+            font-size: 18px;
+            font-weight: 500;
+            color: #fff;
+            z-index: 2;
+            border-radius: 15px;
+        }
+
+        /* Table styles here */
+        table {
+            font-family: 'Open Sans', sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #2C2F33;
+            padding: 8px;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        th {
+            background-color: #23272A;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #2C2F33;
+            color: white;
+        }
+
+        a {
+            color: #7289DA;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media screen and (max-width: 600px) {
+            td {
+                font-size: 12px;
+            }
+        }
     </style>
   </head>
   <body>
-    <div class="container mt-5">
+    <div class="container mt-5 card">
       <h1 class="text-center mb-4">API</h1>
 
       <!-- TABLE CONSTRUCTION-->
-      <table id='table' class="table table-striped table-borderless">
+      <table id='table'>
         <!-- HEADING FORMATION -->
         <thead>
           <tr>
@@ -47,7 +90,7 @@
         <tbody>
         </tbody>
       </table>
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>   
+
       <script>
         $(document).ready(function () {
           // FETCHING DATA FROM JSON FILE
