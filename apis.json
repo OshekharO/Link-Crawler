@@ -5,31 +5,19 @@
         },
         { 
             "name": "Anify",
-            "url": "https://api.anify.tv"
+            "url": "https://docs.anify.tv"
+        },
+        { 
+            "name": "Jimov",
+            "url": "https://jimov-api-docs.vercel.app"
         },
         { 
             "name": "2Embed",
-            "url": "https://www.2embed.to"
-        },
-        { 
-            "name": "GetSuperEmbed",
-            "url": "https://getsuperembed.link/?video_id=imdbId"
+            "url": "https://www.2embed.cc"
         },
         { 
             "name": "OnionFlix",
             "url": "https://onionflix.org"
-        },
-        { 
-            "name": "EmbedWorld",
-            "url": "https://embedworld.xyz"
-        },
-        { 
-            "name": "2Embed",
-            "url": "https://2embed.org"
-        },
-        { 
-            "name": "2Embed",
-            "url": "https://moviehab.com"
         },
         {
             "name": "Consumet",
