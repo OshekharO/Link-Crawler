@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Api Details</title>
+    <title>Api Entertainment</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- INCLUDING GOOGLE FONT AND BOOTSTRAP CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
@@ -12,9 +12,22 @@
     <style>
       body {
         font-family: 'Roboto', sans-serif;
+        background-color: #36393f;
+        color: #dcddde;
+      }
+      .container {
+        max-width: 800px;
       }
       table {
-        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        background-color: #2f3136;
+        border-radius: 5px;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+      }
+      th {
+        border-bottom: 1px solid #4f545c;
+      }
+      th, td {
+        border: none;
       }
     </style>
   </head>
@@ -23,9 +36,9 @@
       <h1 class="text-center mb-4">API</h1>
 
       <!-- TABLE CONSTRUCTION-->
-      <table id='table' class="table table-striped table-bordered">
+      <table id='table' class="table table-striped table-borderless">
         <!-- HEADING FORMATION -->
-        <thead class="table-light">
+        <thead>
           <tr>
             <th>NAME</th>
             <th>URL</th>
@@ -34,7 +47,7 @@
         <tbody>
         </tbody>
       </table>
-   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>   
       <script>
         $(document).ready(function () {
           // FETCHING DATA FROM JSON FILE
