@@ -2,10 +2,6 @@
 
 Get movie & Tv Shows stream by IMDB, TMDB, Title/Year Best Video Api, the best streaming movies API in 2022.
 
-### 🙈 Embedded Demo
-
-- **🖤 Dark Theme**: _https://ecinema.ml_
-
 ## 🚸 Warnings :
 
 - This is Just For Educational Purpose
