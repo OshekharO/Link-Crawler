@@ -40,6 +40,10 @@
             "url": "https://autoembed.to"
         },
         {
+            "name": "Inshorts",
+            "url": "https://docs.inshorts.me"
+        },
+        {
             "name": "GOMO",
             "url": "https://gomo.to/movie/{imdbId}"
         },
