@@ -11,7 +11,11 @@
             "name": "Jimov",
             "url": "https://jimov-api-docs.vercel.app"
         },
-          { 
+        { 
+            "name": "Enime",
+            "url": "https://api.enime.moe"
+        },
+        { 
             "name": "Movie4k",
             "url": "https://api.movie4k.stream"
         },
