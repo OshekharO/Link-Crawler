@@ -11,9 +11,29 @@
             "name": "Jimov",
             "url": "https://jimov-api-docs.vercel.app"
         },
+          { 
+            "name": "Movie4k",
+            "url": "https://api.movie4k.stream"
+        },
+        { 
+            "name": "Comick",
+            "url": "https://api.comick.app"
+        },
+        { 
+            "name": "Invidious",
+            "url": "https://invidious.slipfox.xyz/api/v1"
+        },
         { 
             "name": "2Embed",
             "url": "https://www.2embed.cc"
+        },
+        { 
+            "name": "Kisskh",
+            "url": "https://kisskh.co"
+        },
+        { 
+            "name": "Amvstrm",
+            "url": "https://amvdocs.pages.dev"
         },
         { 
             "name": "OnionFlix",
