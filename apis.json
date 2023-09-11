@@ -12,6 +12,10 @@
             "url": "https://jimov-api-docs.vercel.app"
         },
         { 
+            "name": "MoviesApi",
+            "url": "https://moviesapi.club"
+        },
+        { 
             "name": "Enime",
             "url": "https://api.enime.moe"
         },
