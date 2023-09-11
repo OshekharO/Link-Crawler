@@ -8,6 +8,10 @@
             "url": "https://docs.anify.tv"
         },
         { 
+            "name": "Multi Api",
+            "url": "https://news-api.cyclic.app"
+        },
+        { 
             "name": "Jimov",
             "url": "https://jimov-api-docs.vercel.app"
         },
