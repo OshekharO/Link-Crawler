@@ -8,6 +8,14 @@
             "url": "https://docs.anify.tv"
         },
         { 
+            "name": "SB Comics",
+            "url": "https://api.shortboxed.com"
+        },
+        { 
+            "name": "MangaDex",
+            "url": "https://api.mangadex.org/docs/"
+        },
+        { 
             "name": "Multi Api",
             "url": "https://news-api.cyclic.app"
         },
