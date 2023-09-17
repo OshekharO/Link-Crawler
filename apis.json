@@ -12,6 +12,10 @@
             "url": "https://api.shortboxed.com"
         },
         { 
+            "name": "Player",
+            "url": "https://player.how"
+        },
+        { 
             "name": "MangaDex",
             "url": "https://api.mangadex.org/docs/"
         },
