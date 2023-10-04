@@ -12,6 +12,10 @@
             "url": "https://api.shortboxed.com"
         },
         { 
+            "name": "BlackVid",
+            "url": "https://blackvid.space"
+        },
+        { 
             "name": "Player",
             "url": "https://player.how"
         },
