@@ -124,6 +124,26 @@
             "url": "https://anyembed.xyz"
         },
         {
+            "name": "Uncors",
+            "url": "https://uncors.vercel.app"
+        },
+        {
+            "name": "AnimeDex",
+            "url": "https://api.notowner.workers.dev"
+        },
+        {
+            "name": "Ipify",
+            "url": "https://api.ipify.org/?format=json"
+        },
+        {
+            "name": "Myip",
+            "url": "https://myip.wtf"
+        },
+        {
+            "name": "IP-API",
+            "url": "http://ip-api.com"
+        },
+        {
             "name": "Gdriveplayer",
             "url": "https://api.gdriveplayer.us"
         },
