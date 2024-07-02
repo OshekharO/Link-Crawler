@@ -4,8 +4,8 @@
             "url": "https://googlvideo.com"
         },
         { 
-            "name": "RemoteStream",
-            "url": "https://remotestream.cc"
+            "name": "Autoembed",
+            "url": "https://autoembed.cc"
         },
         { 
             "name": "Anify",
@@ -16,8 +16,8 @@
             "url": "https://api.shortboxed.com"
         },
         { 
-            "name": "BlackVid",
-            "url": "https://blackvid.space"
+            "name": "Mostream",
+            "url": "https://mostream.us"
         },
         { 
             "name": "Player",
@@ -29,7 +29,7 @@
         },
         { 
             "name": "Multi Api",
-            "url": "https://news-api.cyclic.app"
+            "url": "https://news-api-six-navy.vercel.app"
         },
         { 
             "name": "Jimov",
@@ -40,8 +40,8 @@
             "url": "https://moviesapi.club"
         },
         { 
-            "name": "Enime",
-            "url": "https://api.enime.moe"
+            "name": "Frembed",
+            "url": "https://frembed.pro"
         },
         { 
             "name": "Movie4k",
@@ -60,16 +60,16 @@
             "url": "https://www.2embed.cc"
         },
         { 
-            "name": "2Embed",
-            "url": "https://2embed.me"
+            "name": "Nontongo",
+            "url": "https://www.nontongo.win"
         },
         { 
             "name": "Kisskh",
             "url": "https://kisskh.co"
         },
         { 
-            "name": "Amvstrm",
-            "url": "https://amvdocs.pages.dev"
+            "name": "Amvstr",
+            "url": "https://docs.amvstr.me"
         },
         { 
             "name": "OnionFlix",
@@ -80,24 +80,24 @@
             "url": "https://docs.consumet.org"
         },
         {
-            "name": "DBGDrivePlayer",
-            "url": "https://databasegdriveplayer.co"
+            "name": "Superflixapi",
+            "url": "https://superflixapi.top"
         },
         {
-            "name": "DBGo",
-            "url": "https://dbgo.fun"
+            "name": "Moviehab",
+            "url": "https://moviehab.to"
         },
         {
-            "name": "FireSonic",
-            "url": "https://firesonic.sc/play_video.php?video_id={imdbId}"
+            "name": "Warezcdn",
+            "url": "https://embed.warezcdn.net/filme/{imdbId}"
         },
         {
             "name": "Autoembed",
-            "url": "https://autoembed.to"
+            "url": "https://autoembed.cc"
         },
         {
             "name": "Inshorts",
-            "url": "https://docs.inshorts.me"
+            "url": "https://inshorts.vercel.app"
         },
         {
             "name": "GOMO",
