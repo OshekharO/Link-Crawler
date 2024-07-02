@@ -112,6 +112,18 @@
             "url": "https://www.superembed.stream"
         },
         {
+            "name": "StreamScripts",
+            "url": "https://playsrc.streamscripts.xyz"
+        },
+        {
+            "name": "Streamug",
+            "url": "https://streamug.com"
+        },
+        {
+            "name": "Anyembed",
+            "url": "https://anyembed.xyz"
+        },
+        {
             "name": "Gdriveplayer",
             "url": "https://api.gdriveplayer.us"
         },
