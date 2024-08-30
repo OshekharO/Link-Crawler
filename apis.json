@@ -8,6 +8,10 @@
             "url": "https://autoembed.cc"
         },
         { 
+            "name": "Flixcloud",
+            "url": "https://flixcloud.co"
+        },
+        { 
             "name": "Anify",
             "url": "https://docs.anify.tv"
         },
@@ -106,6 +110,10 @@
         {
             "name": "VidSource",
             "url": "https://vidsrc.me"
+        },
+        { 
+            "name": "VidSource 2",
+            "url": "https://vidsrc.pro"
         },
         {
             "name": "Superembed",
