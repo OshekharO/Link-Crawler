@@ -8,6 +8,10 @@
         "url": "https://mostream.us"
     },
     {
+        "name": "111movies",
+        "url": "https://111movies.com"
+    },
+    {
         "name": "MangaDex",
         "url": "https://api.mangadex.org/docs/"
     },
@@ -94,9 +98,5 @@
     {
         "name": "Moviehab",
         "url": "https://moviehab.to"
-    },
-    {
-        "name": "Comick",
-        "url": "https://api.comick.app"
     }
 ]
