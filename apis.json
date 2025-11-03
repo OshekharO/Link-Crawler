@@ -1,162 +1,102 @@
- [
-        {
-            "name": "123movies",
-            "url": "https://googlvideo.com"
-        },
-        { 
-            "name": "Autoembed",
-            "url": "https://autoembed.cc"
-        },
-        { 
-            "name": "Flixcloud",
-            "url": "https://flixcloud.co"
-        },
-        { 
-            "name": "Anify",
-            "url": "https://docs.anify.tv"
-        },
-        { 
-            "name": "SB Comics",
-            "url": "https://api.shortboxed.com"
-        },
-        { 
-            "name": "Mostream",
-            "url": "https://mostream.us"
-        },
-        { 
-            "name": "Player",
-            "url": "https://player.how"
-        },
-        { 
-            "name": "MangaDex",
-            "url": "https://api.mangadex.org/docs/"
-        },
-        { 
-            "name": "Multi Api",
-            "url": "https://news-api-six-navy.vercel.app"
-        },
-        { 
-            "name": "Jimov",
-            "url": "https://jimov-api-docs.vercel.app"
-        },
-        { 
-            "name": "MoviesApi",
-            "url": "https://moviesapi.club"
-        },
-        { 
-            "name": "Frembed",
-            "url": "https://frembed.pro"
-        },
-        { 
-            "name": "Movie4k",
-            "url": "https://api.movie4k.stream"
-        },
-        { 
-            "name": "Comick",
-            "url": "https://api.comick.app"
-        },
-        { 
-            "name": "Invidious",
-            "url": "https://invidious.slipfox.xyz/api/v1"
-        },
-        { 
-            "name": "2Embed",
-            "url": "https://www.2embed.cc"
-        },
-        { 
-            "name": "Nontongo",
-            "url": "https://www.nontongo.win"
-        },
-        { 
-            "name": "Kisskh",
-            "url": "https://kisskh.co"
-        },
-        { 
-            "name": "Amvstr",
-            "url": "https://docs.amvstr.me"
-        },
-        { 
-            "name": "OnionFlix",
-            "url": "https://onionflix.org"
-        },
-        {
-            "name": "Consumet",
-            "url": "https://docs.consumet.org"
-        },
-        {
-            "name": "Superflixapi",
-            "url": "https://superflixapi.top"
-        },
-        {
-            "name": "Moviehab",
-            "url": "https://moviehab.to"
-        },
-        {
-            "name": "Warezcdn",
-            "url": "https://embed.warezcdn.net/filme/{imdbId}"
-        },
-        {
-            "name": "Autoembed",
-            "url": "https://autoembed.cc"
-        },
-        {
-            "name": "Inshorts",
-            "url": "https://inshorts.vercel.app"
-        },
-        {
-            "name": "GOMO",
-            "url": "https://gomo.to/movie/{imdbId}"
-        },
-        {
-            "name": "VidSource",
-            "url": "https://vidsrc.me"
-        },
-        { 
-            "name": "VidSource 2",
-            "url": "https://vidsrc.pro"
-        },
-        {
-            "name": "Superembed",
-            "url": "https://www.superembed.stream"
-        },
-        {
-            "name": "StreamScripts",
-            "url": "https://playsrc.streamscripts.xyz"
-        },
-        {
-            "name": "Streamug",
-            "url": "https://streamug.com"
-        },
-        {
-            "name": "Anyembed",
-            "url": "https://anyembed.xyz"
-        },
-        {
-            "name": "Uncors",
-            "url": "https://uncors.vercel.app"
-        },
-        {
-            "name": "AnimeDex",
-            "url": "https://api.notowner.workers.dev"
-        },
-        {
-            "name": "Ipify",
-            "url": "https://api.ipify.org/?format=json"
-        },
-        {
-            "name": "Myip",
-            "url": "https://myip.wtf"
-        },
-        {
-            "name": "IP-API",
-            "url": "http://ip-api.com"
-        },
-        {
-            "name": "Gdriveplayer",
-            "url": "https://api.gdriveplayer.us"
-        },
-        {
-            "name": "123movie",
-            "url": "https://api.123movie.cc"
-        }
-    ]
+[
+    {
+        "name": "Multi Api",
+        "url": "https://news-api-six-navy.vercel.app"
+    },
+    {
+        "name": "Mostream",
+        "url": "https://mostream.us"
+    },
+    {
+        "name": "MangaDex",
+        "url": "https://api.mangadex.org/docs/"
+    },
+    {
+        "name": "SB Comics",
+        "url": "https://api.shortboxed.com"
+    },
+    {
+        "name": "Frembed",
+        "url": "https://frembed.pro"
+    },
+    {
+        "name": "Movie4k",
+        "url": "https://api.movie4k.stream"
+    },
+    {
+        "name": "Consumet",
+        "url": "https://docs.consumet.org"
+    },
+    {
+        "name": "Warezcdn",
+        "url": "https://embed.warezcdn.net/filme/{imdbId}"
+    },
+    {
+        "name": "Invidious",
+        "url": "https://invidious.slipfox.xyz/api/v1"
+    },
+    {
+        "name": "GOMO",
+        "url": "https://gomo.to/movie/{imdbId}"
+    },
+    {
+        "name": "Nontongo",
+        "url": "https://www.nontongo.win"
+    },
+    {
+        "name": "123movies",
+        "url": "https://googlvideo.com"
+    },
+    {
+        "name": "Superembed",
+        "url": "https://www.superembed.stream"
+    },
+    {
+        "name": "StreamScripts",
+        "url": "https://playsrc.streamscripts.xyz"
+    },
+    {
+        "name": "Streamug",
+        "url": "https://streamug.com"
+    },
+    {
+        "name": "VidSource",
+        "url": "https://vidsrc.me"
+    },
+    {
+        "name": "Uncors",
+        "url": "https://uncors.vercel.app"
+    },
+    {
+        "name": "Ipify",
+        "url": "https://api.ipify.org/?format=json"
+    },
+    {
+        "name": "Inshorts",
+        "url": "https://inshorts.vercel.app"
+    },
+    {
+        "name": "IP-API",
+        "url": "http://ip-api.com"
+    },
+    {
+        "name": "Myip",
+        "url": "https://myip.wtf"
+    },
+    {
+        "name": "Gdriveplayer",
+        "url": "https://api.gdriveplayer.us"
+    },
+    {
+        "name": "Jimov",
+        "url": "https://jimov-api-docs.vercel.app"
+    },
+    {
+        "name": "Moviehab",
+        "url": "https://moviehab.to"
+    },
+    {
+        "name": "Comick",
+        "url": "https://api.comick.app"
+    }
+]
