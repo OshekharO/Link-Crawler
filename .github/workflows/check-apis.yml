@@ -1,0 +1,36 @@
+name: Check API URLs Health
+on:
+  schedule:
+    # Run daily at 6 AM UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch:  # Allow manual triggering
+
+jobs:
+  check-api-urls:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+        
+    - name: Check API URLs and update file
+      run: |
+        python .github/scripts/check_apis.py
+        
+    - name: Commit and push if changes made
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add apis.json
+        git diff --staged --quiet || git commit -m "Update APIs: Remove broken URLs"
+        git push
