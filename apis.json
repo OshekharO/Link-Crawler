@@ -1,19 +1,19 @@
 [
     {
-        "name": "GOMO",
-        "url": "https://gomo.to/movie/{imdbId}"
-    },
-    {
         "name": "Warezcdn",
         "url": "https://embed.warezcdn.net/filme/{imdbId}"
     },
     {
-        "name": "Mostream",
-        "url": "https://mostream.us"
+        "name": "GOMO",
+        "url": "https://gomo.to/movie/{imdbId}"
     },
     {
-        "name": "Frembed",
-        "url": "https://frembed.pro"
+        "name": "Ipify",
+        "url": "https://api.ipify.org/?format=json"
+    },
+    {
+        "name": "Mostream",
+        "url": "https://mostream.us"
     },
     {
         "name": "Streamug",
@@ -32,48 +32,44 @@
         "url": "https://api.movie4k.stream"
     },
     {
-        "name": "SB Comics",
-        "url": "https://api.shortboxed.com"
+        "name": "IP-API",
+        "url": "http://ip-api.com"
     },
     {
-        "name": "Ipify",
-        "url": "https://api.ipify.org/?format=json"
-    },
-    {
-        "name": "MangaDex",
-        "url": "https://api.mangadex.org/docs/"
-    },
-    {
-        "name": "Invidious",
-        "url": "https://invidious.slipfox.xyz/api/v1"
-    },
-    {
-        "name": "Superembed",
-        "url": "https://www.superembed.stream"
+        "name": "Frembed",
+        "url": "https://frembed.pro"
     },
     {
         "name": "Consumet",
         "url": "https://docs.consumet.org"
     },
     {
+        "name": "SB Comics",
+        "url": "https://api.shortboxed.com"
+    },
+    {
+        "name": "Invidious",
+        "url": "https://invidious.slipfox.xyz/api/v1"
+    },
+    {
+        "name": "MangaDex",
+        "url": "https://api.mangadex.org/docs/"
+    },
+    {
         "name": "Nontongo",
         "url": "https://www.nontongo.win"
-    },
-    {
-        "name": "Inshorts",
-        "url": "https://inshorts.vercel.app"
-    },
-    {
-        "name": "IP-API",
-        "url": "http://ip-api.com"
     },
     {
         "name": "StreamScripts",
         "url": "https://playsrc.streamscripts.xyz"
     },
     {
-        "name": "VidSource",
-        "url": "https://vidsrc.me"
+        "name": "Superembed",
+        "url": "https://www.superembed.stream"
+    },
+    {
+        "name": "Uncors",
+        "url": "https://uncors.vercel.app"
     },
     {
         "name": "Myip",
@@ -84,8 +80,12 @@
         "url": "https://googlvideo.com"
     },
     {
-        "name": "Uncors",
-        "url": "https://uncors.vercel.app"
+        "name": "VidSource",
+        "url": "https://vidsrc.me"
+    },
+    {
+        "name": "Inshorts",
+        "url": "https://inshorts.vercel.app"
     },
     {
         "name": "Gdriveplayer",
@@ -96,11 +96,11 @@
         "url": "https://news-api-six-navy.vercel.app"
     },
     {
-        "name": "Jimov",
-        "url": "https://jimov-api-docs.vercel.app"
-    },
-    {
         "name": "Moviehab",
         "url": "https://moviehab.to"
+    },
+    {
+        "name": "Jimov",
+        "url": "https://jimov-api-docs.vercel.app"
     }
 ]
