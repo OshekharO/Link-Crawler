@@ -1,23 +1,15 @@
 [
     {
-        "name": "GOMO",
-        "url": "https://gomo.to/movie/{imdbId}"
-    },
-    {
         "name": "Warezcdn",
         "url": "https://embed.warezcdn.net/filme/{imdbId}"
     },
     {
+        "name": "GOMO",
+        "url": "https://gomo.to/movie/{imdbId}"
+    },
+    {
         "name": "Ipify",
         "url": "https://api.ipify.org/?format=json"
-    },
-    {
-        "name": "Consumet",
-        "url": "https://docs.consumet.org"
-    },
-    {
-        "name": "IP-API",
-        "url": "http://ip-api.com"
     },
     {
         "name": "Enc-Dec",
@@ -28,64 +20,72 @@
         "url": "https://111movies.com"
     },
     {
+        "name": "Consumet",
+        "url": "https://docs.consumet.org"
+    },
+    {
         "name": "Mostream",
         "url": "https://mostream.us"
+    },
+    {
+        "name": "IP-API",
+        "url": "http://ip-api.com"
     },
     {
         "name": "StreamScripts",
         "url": "https://playsrc.streamscripts.xyz"
     },
     {
-        "name": "Invidious",
-        "url": "https://invidious.slipfox.xyz/api/v1"
+        "name": "Superembed",
+        "url": "https://www.superembed.stream"
     },
     {
         "name": "Gdriveplayer",
         "url": "https://api.gdriveplayer.us"
     },
     {
-        "name": "MangaDex",
-        "url": "https://api.mangadex.org/docs/"
-    },
-    {
-        "name": "Superembed",
-        "url": "https://www.superembed.stream"
-    },
-    {
         "name": "SB Comics",
         "url": "https://api.shortboxed.com"
+    },
+    {
+        "name": "MangaDex",
+        "url": "https://api.mangadex.org/docs/"
     },
     {
         "name": "Movie4k",
         "url": "https://api.movie4k.stream"
     },
     {
-        "name": "Nontongo",
-        "url": "https://www.nontongo.win"
+        "name": "Uncors",
+        "url": "https://uncors.vercel.app"
+    },
+    {
+        "name": "Invidious",
+        "url": "https://invidious.slipfox.xyz/api/v1"
     },
     {
         "name": "Frembed",
         "url": "https://frembed.pro"
     },
     {
-        "name": "Myip",
-        "url": "https://myip.wtf"
+        "name": "Nontongo",
+        "url": "https://www.nontongo.win"
     },
     {
-        "name": "Uncors",
-        "url": "https://uncors.vercel.app"
+        "name": "Inshorts",
+        "url": "https://inshorts.vercel.app"
     },
     {
         "name": "VidSource",
         "url": "https://vidsrc.me"
     },
     {
-        "name": "123movies",
-        "url": "https://googlvideo.com"
+        "name": "Myip",
+        "url": "https://myip.wtf"
     },
     {
-        "name": "Inshorts",
-        "url": "https://inshorts.vercel.app"
+        "name": "123movies",
+        "url": "https://googlvideo.com"
     },
     {
         "name": "Moviehab",
