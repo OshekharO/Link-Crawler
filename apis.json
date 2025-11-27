@@ -1,15 +1,19 @@
 [
     {
-        "name": "Warezcdn",
-        "url": "https://embed.warezcdn.net/filme/{imdbId}"
-    },
-    {
         "name": "GOMO",
         "url": "https://gomo.to/movie/{imdbId}"
     },
     {
+        "name": "Warezcdn",
+        "url": "https://embed.warezcdn.net/filme/{imdbId}"
+    },
+    {
         "name": "Ipify",
         "url": "https://api.ipify.org/?format=json"
+    },
+    {
+        "name": "Mostream",
+        "url": "https://mostream.us"
     },
     {
         "name": "IP-API",
@@ -20,16 +24,12 @@
         "url": "https://enc-dec.app"
     },
     {
-        "name": "Consumet",
-        "url": "https://docs.consumet.org"
-    },
-    {
         "name": "111movies",
         "url": "https://111movies.com"
     },
     {
-        "name": "Mostream",
-        "url": "https://mostream.us"
+        "name": "Consumet",
+        "url": "https://docs.consumet.org"
     },
     {
         "name": "Gdriveplayer",
@@ -40,16 +40,12 @@
         "url": "https://api.movie4k.stream"
     },
     {
-        "name": "Superembed",
-        "url": "https://www.superembed.stream"
-    },
-    {
         "name": "SB Comics",
         "url": "https://api.shortboxed.com"
     },
     {
-        "name": "VidSource",
-        "url": "https://vidsrc.me"
+        "name": "Superembed",
+        "url": "https://www.superembed.stream"
     },
     {
         "name": "Nontongo",
@@ -64,27 +60,31 @@
         "url": "https://api.mangadex.org/docs/"
     },
     {
-        "name": "Multi Api",
-        "url": "https://news-api-six-navy.vercel.app"
+        "name": "Invidious",
+        "url": "https://invidious.slipfox.xyz/api/v1"
+    },
+    {
+        "name": "VidSource",
+        "url": "https://vidsrc.me"
     },
     {
         "name": "Uncors",
         "url": "https://uncors.vercel.app"
     },
     {
-        "name": "Invidious",
-        "url": "https://invidious.slipfox.xyz/api/v1"
-    },
-    {
         "name": "123movies",
         "url": "https://googlvideo.com"
     },
     {
-        "name": "Jimov",
-        "url": "https://jimov-api-docs.vercel.app"
-    },
-    {
         "name": "Inshorts",
         "url": "https://inshorts.vercel.app"
+    },
+    {
+        "name": "Multi Api",
+        "url": "https://news-api-six-navy.vercel.app"
+    },
+    {
+        "name": "Jimov",
+        "url": "https://jimov-api-docs.vercel.app"
     }
 ]
