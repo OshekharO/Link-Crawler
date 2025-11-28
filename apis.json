@@ -1,23 +1,23 @@
 [
     {
-        "name": "GOMO",
-        "url": "https://gomo.to/movie/{imdbId}"
-    },
-    {
         "name": "Warezcdn",
         "url": "https://embed.warezcdn.net/filme/{imdbId}"
+    },
+    {
+        "name": "GOMO",
+        "url": "https://gomo.to/movie/{imdbId}"
     },
     {
         "name": "Ipify",
         "url": "https://api.ipify.org/?format=json"
     },
     {
-        "name": "Mostream",
-        "url": "https://mostream.us"
-    },
-    {
         "name": "IP-API",
         "url": "http://ip-api.com"
+    },
+    {
+        "name": "Mostream",
+        "url": "https://mostream.us"
     },
     {
         "name": "Enc-Dec",
@@ -36,24 +36,16 @@
         "url": "https://api.gdriveplayer.us"
     },
     {
-        "name": "Movie4k",
-        "url": "https://api.movie4k.stream"
-    },
-    {
-        "name": "SB Comics",
-        "url": "https://api.shortboxed.com"
-    },
-    {
-        "name": "Superembed",
-        "url": "https://www.superembed.stream"
-    },
-    {
         "name": "Nontongo",
         "url": "https://www.nontongo.win"
     },
     {
         "name": "Myip",
         "url": "https://myip.wtf"
+    },
+    {
+        "name": "SB Comics",
+        "url": "https://api.shortboxed.com"
     },
     {
         "name": "MangaDex",
@@ -64,20 +56,28 @@
         "url": "https://invidious.slipfox.xyz/api/v1"
     },
     {
-        "name": "VidSource",
-        "url": "https://vidsrc.me"
+        "name": "Movie4k",
+        "url": "https://api.movie4k.stream"
     },
     {
         "name": "Uncors",
         "url": "https://uncors.vercel.app"
     },
     {
-        "name": "123movies",
-        "url": "https://googlvideo.com"
-    },
-    {
         "name": "Inshorts",
         "url": "https://inshorts.vercel.app"
+    },
+    {
+        "name": "Superembed",
+        "url": "https://www.superembed.stream"
+    },
+    {
+        "name": "VidSource",
+        "url": "https://vidsrc.me"
+    },
+    {
+        "name": "123movies",
+        "url": "https://googlvideo.com"
     },
     {
         "name": "Multi Api",
