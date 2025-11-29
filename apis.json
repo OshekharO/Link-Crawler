@@ -1,11 +1,11 @@
 [
     {
-        "name": "Warezcdn",
-        "url": "https://embed.warezcdn.net/filme/{imdbId}"
-    },
-    {
         "name": "GOMO",
         "url": "https://gomo.to/movie/{imdbId}"
+    },
+    {
+        "name": "Warezcdn",
+        "url": "https://embed.warezcdn.net/filme/{imdbId}"
     },
     {
         "name": "Ipify",
@@ -20,12 +20,12 @@
         "url": "https://mostream.us"
     },
     {
-        "name": "Enc-Dec",
-        "url": "https://enc-dec.app"
-    },
-    {
         "name": "111movies",
         "url": "https://111movies.com"
+    },
+    {
+        "name": "SB Comics",
+        "url": "https://api.shortboxed.com"
     },
     {
         "name": "Consumet",
@@ -36,24 +36,24 @@
         "url": "https://api.gdriveplayer.us"
     },
     {
+        "name": "Enc-Dec",
+        "url": "https://enc-dec.app"
+    },
+    {
         "name": "Nontongo",
         "url": "https://www.nontongo.win"
-    },
-    {
-        "name": "Myip",
-        "url": "https://myip.wtf"
-    },
-    {
-        "name": "SB Comics",
-        "url": "https://api.shortboxed.com"
     },
     {
         "name": "MangaDex",
         "url": "https://api.mangadex.org/docs/"
     },
     {
-        "name": "Invidious",
-        "url": "https://invidious.slipfox.xyz/api/v1"
+        "name": "Inshorts",
+        "url": "https://inshorts.vercel.app"
+    },
+    {
+        "name": "Myip",
+        "url": "https://myip.wtf"
     },
     {
         "name": "Movie4k",
@@ -64,10 +64,6 @@
         "url": "https://uncors.vercel.app"
     },
     {
-        "name": "Inshorts",
-        "url": "https://inshorts.vercel.app"
-    },
-    {
         "name": "Superembed",
         "url": "https://www.superembed.stream"
     },
@@ -76,15 +72,15 @@
         "url": "https://vidsrc.me"
     },
     {
+        "name": "Jimov",
+        "url": "https://jimov-api-docs.vercel.app"
+    },
+    {
         "name": "123movies",
         "url": "https://googlvideo.com"
     },
     {
         "name": "Multi Api",
         "url": "https://news-api-six-navy.vercel.app"
-    },
-    {
-        "name": "Jimov",
-        "url": "https://jimov-api-docs.vercel.app"
     }
 ]
