@@ -1,79 +1,79 @@
 [
     {
-        "name": "Warezcdn",
-        "url": "https://embed.warezcdn.net/filme/{imdbId}"
-    },
-    {
         "name": "GOMO",
         "url": "https://gomo.to/movie/{imdbId}"
     },
     {
-        "name": "IP-API",
-        "url": "http://ip-api.com"
+        "name": "Warezcdn",
+        "url": "https://embed.warezcdn.net/filme/{imdbId}"
     },
     {
         "name": "Ipify",
         "url": "https://api.ipify.org/?format=json"
     },
     {
-        "name": "Mostream",
-        "url": "https://mostream.us"
+        "name": "IP-API",
+        "url": "http://ip-api.com"
     },
     {
-        "name": "Enc-Dec",
-        "url": "https://enc-dec.app"
+        "name": "Mostream",
+        "url": "https://mostream.us"
     },
     {
         "name": "111movies",
         "url": "https://111movies.com"
     },
     {
-        "name": "SB Comics",
-        "url": "https://api.shortboxed.com"
+        "name": "Consumet",
+        "url": "https://docs.consumet.org"
     },
     {
         "name": "Gdriveplayer",
         "url": "https://api.gdriveplayer.us"
     },
     {
-        "name": "Consumet",
-        "url": "https://docs.consumet.org"
+        "name": "SB Comics",
+        "url": "https://api.shortboxed.com"
     },
     {
-        "name": "MangaDex",
-        "url": "https://api.mangadex.org/docs/"
+        "name": "Enc-Dec",
+        "url": "https://enc-dec.app"
     },
     {
         "name": "Nontongo",
         "url": "https://www.nontongo.win"
     },
     {
-        "name": "Myip",
-        "url": "https://myip.wtf"
+        "name": "Superembed",
+        "url": "https://www.superembed.stream"
     },
     {
         "name": "Uncors",
         "url": "https://uncors.vercel.app"
     },
     {
-        "name": "Superembed",
-        "url": "https://www.superembed.stream"
-    },
-    {
-        "name": "Inshorts",
-        "url": "https://inshorts.vercel.app"
-    },
-    {
-        "name": "VidSource",
-        "url": "https://vidsrc.me"
+        "name": "MangaDex",
+        "url": "https://api.mangadex.org/docs/"
     },
     {
         "name": "Movie4k",
         "url": "https://api.movie4k.stream"
     },
     {
+        "name": "VidSource",
+        "url": "https://vidsrc.me"
+    },
+    {
+        "name": "Inshorts",
+        "url": "https://inshorts.vercel.app"
+    },
+    {
         "name": "123movies",
         "url": "https://googlvideo.com"
+    },
+    {
+        "name": "Myip",
+        "url": "https://myip.wtf"
     },
     {
         "name": "Multi Api",
