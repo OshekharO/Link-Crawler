@@ -1,11 +1,11 @@
 [
     {
-        "name": "GOMO",
-        "url": "https://gomo.to/movie/{imdbId}"
-    },
-    {
         "name": "Warezcdn",
         "url": "https://embed.warezcdn.net/filme/{imdbId}"
+    },
+    {
+        "name": "GOMO",
+        "url": "https://gomo.to/movie/{imdbId}"
     },
     {
         "name": "Ipify",
@@ -16,40 +16,36 @@
         "url": "http://ip-api.com"
     },
     {
-        "name": "Mostream",
-        "url": "https://mostream.us"
+        "name": "SB Comics",
+        "url": "https://api.shortboxed.com"
     },
     {
         "name": "111movies",
         "url": "https://111movies.com"
     },
     {
-        "name": "Consumet",
-        "url": "https://docs.consumet.org"
-    },
-    {
-        "name": "Gdriveplayer",
-        "url": "https://api.gdriveplayer.us"
-    },
-    {
-        "name": "SB Comics",
-        "url": "https://api.shortboxed.com"
+        "name": "Mostream",
+        "url": "https://mostream.us"
     },
     {
         "name": "Enc-Dec",
         "url": "https://enc-dec.app"
     },
     {
-        "name": "Nontongo",
-        "url": "https://www.nontongo.win"
+        "name": "Gdriveplayer",
+        "url": "https://api.gdriveplayer.us"
+    },
+    {
+        "name": "Consumet",
+        "url": "https://docs.consumet.org"
     },
     {
         "name": "Superembed",
         "url": "https://www.superembed.stream"
     },
     {
-        "name": "Uncors",
-        "url": "https://uncors.vercel.app"
+        "name": "Nontongo",
+        "url": "https://www.nontongo.win"
     },
     {
         "name": "MangaDex",
@@ -60,24 +56,24 @@
         "url": "https://api.movie4k.stream"
     },
     {
-        "name": "VidSource",
-        "url": "https://vidsrc.me"
-    },
-    {
-        "name": "Inshorts",
-        "url": "https://inshorts.vercel.app"
-    },
-    {
-        "name": "123movies",
-        "url": "https://googlvideo.com"
+        "name": "Uncors",
+        "url": "https://uncors.vercel.app"
     },
     {
         "name": "Myip",
         "url": "https://myip.wtf"
     },
     {
+        "name": "VidSource",
+        "url": "https://vidsrc.me"
+    },
+    {
         "name": "Multi Api",
         "url": "https://news-api-six-navy.vercel.app"
+    },
+    {
+        "name": "Inshorts",
+        "url": "https://inshorts.vercel.app"
     },
     {
         "name": "Jimov",
