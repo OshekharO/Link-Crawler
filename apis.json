@@ -12,24 +12,24 @@
         "url": "https://api.ipify.org/?format=json"
     },
     {
-        "name": "IP-API",
-        "url": "http://ip-api.com"
-    },
-    {
         "name": "Enc-Dec",
         "url": "https://enc-dec.app"
     },
     {
-        "name": "Consumet",
-        "url": "https://docs.consumet.org"
+        "name": "IP-API",
+        "url": "http://ip-api.com"
+    },
+    {
+        "name": "Mostream",
+        "url": "https://mostream.us"
     },
     {
         "name": "111movies",
         "url": "https://111movies.com"
     },
     {
-        "name": "Mostream",
-        "url": "https://mostream.us"
+        "name": "Consumet",
+        "url": "https://docs.consumet.org"
     },
     {
         "name": "SB Comics",
@@ -44,16 +44,16 @@
         "url": "https://api.mangadex.org/docs/"
     },
     {
+        "name": "Gdriveplayer",
+        "url": "https://api.gdriveplayer.us"
+    },
+    {
         "name": "Inshorts",
         "url": "https://inshorts.vercel.app"
     },
     {
         "name": "Superembed",
         "url": "https://www.superembed.stream"
-    },
-    {
-        "name": "Gdriveplayer",
-        "url": "https://api.gdriveplayer.us"
     },
     {
         "name": "Movie4k",
