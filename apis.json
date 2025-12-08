@@ -8,10 +8,6 @@
         "url": "https://embed.warezcdn.net/filme/{imdbId}"
     },
     {
-        "name": "Ipify",
-        "url": "https://api.ipify.org/?format=json"
-    },
-    {
         "name": "Enc-Dec",
         "url": "https://enc-dec.app"
     },
@@ -22,6 +18,10 @@
     {
         "name": "Mostream",
         "url": "https://mostream.us"
+    },
+    {
+        "name": "Ipify",
+        "url": "https://api.ipify.org/?format=json"
     },
     {
         "name": "111movies",
@@ -40,16 +40,8 @@
         "url": "https://www.nontongo.win"
     },
     {
-        "name": "MangaDex",
-        "url": "https://api.mangadex.org/docs/"
-    },
-    {
         "name": "Gdriveplayer",
         "url": "https://api.gdriveplayer.us"
-    },
-    {
-        "name": "Inshorts",
-        "url": "https://inshorts.vercel.app"
     },
     {
         "name": "Superembed",
@@ -60,12 +52,20 @@
         "url": "https://api.movie4k.stream"
     },
     {
-        "name": "Myip",
-        "url": "https://myip.wtf"
+        "name": "MangaDex",
+        "url": "https://api.mangadex.org/docs/"
     },
     {
         "name": "Uncors",
         "url": "https://uncors.vercel.app"
+    },
+    {
+        "name": "Myip",
+        "url": "https://myip.wtf"
+    },
+    {
+        "name": "Inshorts",
+        "url": "https://inshorts.vercel.app"
     },
     {
         "name": "VidSource",
