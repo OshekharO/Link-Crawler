@@ -12,32 +12,32 @@
         "url": "https://api.ipify.org/?format=json"
     },
     {
-        "name": "Mostream",
-        "url": "https://mostream.us"
+        "name": "IP-API",
+        "url": "http://ip-api.com"
     },
     {
         "name": "Enc-Dec",
         "url": "https://enc-dec.app"
     },
     {
-        "name": "IP-API",
-        "url": "http://ip-api.com"
+        "name": "Mostream",
+        "url": "https://mostream.us"
     },
     {
         "name": "111movies",
         "url": "https://111movies.com"
     },
     {
+        "name": "Superembed",
+        "url": "https://www.superembed.stream"
+    },
+    {
         "name": "Consumet",
         "url": "https://docs.consumet.org"
     },
     {
-        "name": "Inshorts",
-        "url": "https://inshorts.vercel.app"
-    },
-    {
-        "name": "Superembed",
-        "url": "https://www.superembed.stream"
+        "name": "Nontongo",
+        "url": "https://www.nontongo.win"
     },
     {
         "name": "Movie4k",
@@ -48,28 +48,28 @@
         "url": "https://myip.wtf"
     },
     {
-        "name": "Nontongo",
-        "url": "https://www.nontongo.win"
-    },
-    {
-        "name": "MangaDex",
-        "url": "https://api.mangadex.org/docs/"
+        "name": "Gdriveplayer",
+        "url": "https://api.gdriveplayer.us"
     },
     {
         "name": "SB Comics",
         "url": "https://api.shortboxed.com"
     },
     {
-        "name": "Gdriveplayer",
-        "url": "https://api.gdriveplayer.us"
+        "name": "Inshorts",
+        "url": "https://inshorts.vercel.app"
     },
     {
-        "name": "Uncors",
-        "url": "https://uncors.vercel.app"
+        "name": "MangaDex",
+        "url": "https://api.mangadex.org/docs/"
     },
     {
         "name": "VidSource",
         "url": "https://vidsrc.me"
+    },
+    {
+        "name": "Uncors",
+        "url": "https://uncors.vercel.app"
     },
     {
         "name": "Multi Api",
