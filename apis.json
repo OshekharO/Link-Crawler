@@ -8,6 +8,10 @@
         "url": "https://embed.warezcdn.net/filme/{imdbId}"
     },
     {
+        "name": "Ipify",
+        "url": "https://api.ipify.org/?format=json"
+    },
+    {
         "name": "Enc-Dec",
         "url": "https://enc-dec.app"
     },
@@ -16,67 +20,63 @@
         "url": "https://mostream.us"
     },
     {
-        "name": "Ipify",
-        "url": "https://api.ipify.org/?format=json"
-    },
-    {
-        "name": "Myip",
-        "url": "https://myip.wtf"
-    },
-    {
-        "name": "111movies",
-        "url": "https://111movies.com"
-    },
-    {
         "name": "Consumet",
         "url": "https://docs.consumet.org"
-    },
-    {
-        "name": "Superembed",
-        "url": "https://www.superembed.stream"
-    },
-    {
-        "name": "SB Comics",
-        "url": "https://api.shortboxed.com"
-    },
-    {
-        "name": "Nontongo",
-        "url": "https://www.nontongo.win"
     },
     {
         "name": "Inshorts",
         "url": "https://inshorts.vercel.app"
     },
     {
+        "name": "SB Comics",
+        "url": "https://api.shortboxed.com"
+    },
+    {
         "name": "Gdriveplayer",
         "url": "https://api.gdriveplayer.us"
+    },
+    {
+        "name": "Superembed",
+        "url": "https://www.superembed.stream"
+    },
+    {
+        "name": "Myip",
+        "url": "https://myip.wtf"
     },
     {
         "name": "IP-API",
         "url": "http://ip-api.com"
     },
     {
-        "name": "Movie4k",
-        "url": "https://api.movie4k.stream"
-    },
-    {
-        "name": "MangaDex",
-        "url": "https://api.mangadex.org/docs/"
-    },
-    {
-        "name": "VidSource",
-        "url": "https://vidsrc.me"
-    },
-    {
-        "name": "Multi Api",
-        "url": "https://news-api-six-navy.vercel.app"
+        "name": "Nontongo",
+        "url": "https://www.nontongo.win"
     },
     {
         "name": "Uncors",
         "url": "https://uncors.vercel.app"
     },
     {
+        "name": "MangaDex",
+        "url": "https://api.mangadex.org/docs/"
+    },
+    {
+        "name": "Movie4k",
+        "url": "https://api.movie4k.stream"
+    },
+    {
+        "name": "VidSource",
+        "url": "https://vidsrc.me"
+    },
+    {
+        "name": "111movies",
+        "url": "https://111movies.com"
+    },
+    {
         "name": "Jimov",
         "url": "https://jimov-api-docs.vercel.app"
+    },
+    {
+        "name": "Multi Api",
+        "url": "https://news-api-six-navy.vercel.app"
     }
 ]
