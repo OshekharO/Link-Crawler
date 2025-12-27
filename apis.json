@@ -8,48 +8,36 @@
         "url": "https://embed.warezcdn.net/filme/{imdbId}"
     },
     {
-        "name": "Ipify",
-        "url": "https://api.ipify.org/?format=json"
-    },
-    {
-        "name": "IP-API",
-        "url": "http://ip-api.com"
+        "name": "Mostream",
+        "url": "https://mostream.us"
     },
     {
         "name": "Enc-Dec",
         "url": "https://enc-dec.app"
     },
     {
-        "name": "Mostream",
-        "url": "https://mostream.us"
+        "name": "IP-API",
+        "url": "http://ip-api.com"
     },
     {
         "name": "111movies",
         "url": "https://111movies.com"
     },
     {
+        "name": "Ipify",
+        "url": "https://api.ipify.org/?format=json"
+    },
+    {
         "name": "Consumet",
         "url": "https://docs.consumet.org"
-    },
-    {
-        "name": "Movie4k",
-        "url": "https://api.movie4k.stream"
-    },
-    {
-        "name": "Gdriveplayer",
-        "url": "https://api.gdriveplayer.us"
-    },
-    {
-        "name": "SB Comics",
-        "url": "https://api.shortboxed.com"
     },
     {
         "name": "Nontongo",
         "url": "https://www.nontongo.win"
     },
     {
-        "name": "Uncors",
-        "url": "https://uncors.vercel.app"
+        "name": "SB Comics",
+        "url": "https://api.shortboxed.com"
     },
     {
         "name": "Superembed",
@@ -60,20 +48,20 @@
         "url": "https://myip.wtf"
     },
     {
-        "name": "VidSource",
-        "url": "https://vidsrc.me"
+        "name": "Inshorts",
+        "url": "https://inshorts.vercel.app"
+    },
+    {
+        "name": "Uncors",
+        "url": "https://uncors.vercel.app"
     },
     {
         "name": "MangaDex",
         "url": "https://api.mangadex.org/docs/"
     },
     {
-        "name": "Inshorts",
-        "url": "https://inshorts.vercel.app"
-    },
-    {
-        "name": "Multi Api",
-        "url": "https://news-api-six-navy.vercel.app"
+        "name": "VidSource",
+        "url": "https://vidsrc.me"
     },
     {
         "name": "Jimov",
