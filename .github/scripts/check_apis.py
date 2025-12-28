@@ -32,7 +32,7 @@ def check_url(api_entry):
         response = requests.get(
             clean_url, 
             headers=headers, 
-            timeout=10,
+            timeout=20,
             allow_redirects=True
         )
         
