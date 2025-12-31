@@ -8,12 +8,12 @@
         "url": "https://embed.warezcdn.net/filme/{imdbId}"
     },
     {
-        "name": "Enc-Dec",
-        "url": "https://enc-dec.app"
-    },
-    {
         "name": "Ipify",
         "url": "https://api.ipify.org/?format=json"
+    },
+    {
+        "name": "Enc-Dec",
+        "url": "https://enc-dec.app"
     },
     {
         "name": "IP-API",
@@ -24,24 +24,28 @@
         "url": "https://mostream.us"
     },
     {
-        "name": "Consumet",
-        "url": "https://docs.consumet.org"
-    },
-    {
         "name": "111movies",
         "url": "https://111movies.com"
-    },
-    {
-        "name": "Nontongo",
-        "url": "https://www.nontongo.win"
     },
     {
         "name": "Superembed",
         "url": "https://www.superembed.stream"
     },
     {
+        "name": "Nontongo",
+        "url": "https://www.nontongo.win"
+    },
+    {
         "name": "MangaDex",
         "url": "https://api.mangadex.org/docs/"
+    },
+    {
+        "name": "Consumet",
+        "url": "https://docs.consumet.org"
+    },
+    {
+        "name": "Myip",
+        "url": "https://myip.wtf"
     },
     {
         "name": "SB Comics",
@@ -50,10 +54,6 @@
     {
         "name": "Uncors",
         "url": "https://uncors.vercel.app"
-    },
-    {
-        "name": "Myip",
-        "url": "https://myip.wtf"
     },
     {
         "name": "VidSource",
