@@ -12,20 +12,20 @@
         "url": "https://api.ipify.org/?format=json"
     },
     {
-        "name": "Enc-Dec",
-        "url": "https://enc-dec.app"
+        "name": "Mostream",
+        "url": "https://mostream.us"
     },
     {
         "name": "IP-API",
         "url": "http://ip-api.com"
     },
     {
-        "name": "Mostream",
-        "url": "https://mostream.us"
-    },
-    {
         "name": "111movies",
         "url": "https://111movies.com"
+    },
+    {
+        "name": "Enc-Dec",
+        "url": "https://enc-dec.app"
     },
     {
         "name": "Superembed",
@@ -36,20 +36,20 @@
         "url": "https://www.nontongo.win"
     },
     {
-        "name": "MangaDex",
-        "url": "https://api.mangadex.org/docs/"
-    },
-    {
         "name": "Consumet",
         "url": "https://docs.consumet.org"
+    },
+    {
+        "name": "SB Comics",
+        "url": "https://api.shortboxed.com"
     },
     {
         "name": "Myip",
         "url": "https://myip.wtf"
     },
     {
-        "name": "SB Comics",
-        "url": "https://api.shortboxed.com"
+        "name": "MangaDex",
+        "url": "https://api.mangadex.org/docs/"
     },
     {
         "name": "Uncors",
