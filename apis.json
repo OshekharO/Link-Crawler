@@ -20,32 +20,28 @@
         "url": "http://ip-api.com"
     },
     {
-        "name": "111movies",
-        "url": "https://111movies.com"
-    },
-    {
-        "name": "Enc-Dec",
-        "url": "https://enc-dec.app"
-    },
-    {
-        "name": "Superembed",
-        "url": "https://www.superembed.stream"
+        "name": "SB Comics",
+        "url": "https://api.shortboxed.com"
     },
     {
         "name": "Nontongo",
         "url": "https://www.nontongo.win"
     },
     {
-        "name": "Consumet",
-        "url": "https://docs.consumet.org"
-    },
-    {
-        "name": "SB Comics",
-        "url": "https://api.shortboxed.com"
+        "name": "Superembed",
+        "url": "https://www.superembed.stream"
     },
     {
         "name": "Myip",
         "url": "https://myip.wtf"
+    },
+    {
+        "name": "Enc-Dec",
+        "url": "https://enc-dec.app"
+    },
+    {
+        "name": "Consumet",
+        "url": "https://docs.consumet.org"
     },
     {
         "name": "MangaDex",
@@ -58,6 +54,10 @@
     {
         "name": "VidSource",
         "url": "https://vidsrc.me"
+    },
+    {
+        "name": "111movies",
+        "url": "https://111movies.com"
     },
     {
         "name": "Inshorts",
