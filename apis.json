@@ -8,12 +8,12 @@
         "url": "https://embed.warezcdn.net/filme/{imdbId}"
     },
     {
-        "name": "Ipify",
-        "url": "https://api.ipify.org/?format=json"
-    },
-    {
         "name": "Mostream",
         "url": "https://mostream.us"
+    },
+    {
+        "name": "Enc-Dec",
+        "url": "https://enc-dec.app"
     },
     {
         "name": "IP-API",
@@ -24,20 +24,16 @@
         "url": "https://api.shortboxed.com"
     },
     {
-        "name": "Nontongo",
-        "url": "https://www.nontongo.win"
+        "name": "Ipify",
+        "url": "https://api.ipify.org/?format=json"
     },
     {
-        "name": "Superembed",
-        "url": "https://www.superembed.stream"
+        "name": "Uncors",
+        "url": "https://uncors.vercel.app"
     },
     {
-        "name": "Myip",
-        "url": "https://myip.wtf"
-    },
-    {
-        "name": "Enc-Dec",
-        "url": "https://enc-dec.app"
+        "name": "Inshorts",
+        "url": "https://inshorts.vercel.app"
     },
     {
         "name": "Consumet",
@@ -48,20 +44,24 @@
         "url": "https://api.mangadex.org/docs/"
     },
     {
-        "name": "Uncors",
-        "url": "https://uncors.vercel.app"
-    },
-    {
-        "name": "VidSource",
-        "url": "https://vidsrc.me"
-    },
-    {
         "name": "111movies",
         "url": "https://111movies.com"
     },
     {
-        "name": "Inshorts",
-        "url": "https://inshorts.vercel.app"
+        "name": "Superembed",
+        "url": "https://www.superembed.stream"
+    },
+    {
+        "name": "Myip",
+        "url": "https://myip.wtf"
+    },
+    {
+        "name": "Nontongo",
+        "url": "https://www.nontongo.win"
+    },
+    {
+        "name": "VidSource",
+        "url": "https://vidsrc.me"
     },
     {
         "name": "Jimov",
