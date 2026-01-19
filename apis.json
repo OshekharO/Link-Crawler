@@ -1,39 +1,43 @@
 [
     {
-        "name": "Warezcdn",
-        "url": "https://embed.warezcdn.net/filme/{imdbId}"
-    },
-    {
         "name": "GOMO",
         "url": "https://gomo.to/movie/{imdbId}"
     },
     {
-        "name": "Ipify",
-        "url": "https://api.ipify.org/?format=json"
+        "name": "Warezcdn",
+        "url": "https://embed.warezcdn.net/filme/{imdbId}"
     },
     {
         "name": "IP-API",
         "url": "http://ip-api.com"
     },
     {
-        "name": "Mostream",
-        "url": "https://mostream.us"
-    },
-    {
-        "name": "111movies",
-        "url": "https://111movies.com"
-    },
-    {
-        "name": "SB Comics",
-        "url": "https://api.shortboxed.com"
+        "name": "Ipify",
+        "url": "https://api.ipify.org/?format=json"
     },
     {
         "name": "Enc-Dec",
         "url": "https://enc-dec.app"
     },
     {
+        "name": "111movies",
+        "url": "https://111movies.com"
+    },
+    {
+        "name": "Mostream",
+        "url": "https://mostream.us"
+    },
+    {
         "name": "Consumet",
         "url": "https://docs.consumet.org"
+    },
+    {
+        "name": "SB Comics",
+        "url": "https://api.shortboxed.com"
+    },
+    {
+        "name": "Myip",
+        "url": "https://myip.wtf"
     },
     {
         "name": "Nontongo",
@@ -44,24 +48,20 @@
         "url": "https://www.superembed.stream"
     },
     {
-        "name": "VidSource",
-        "url": "https://vidsrc.me"
-    },
-    {
-        "name": "Myip",
-        "url": "https://myip.wtf"
+        "name": "MangaDex",
+        "url": "https://api.mangadex.org/docs/"
     },
     {
         "name": "Uncors",
         "url": "https://uncors.vercel.app"
     },
     {
-        "name": "Inshorts",
-        "url": "https://inshorts.vercel.app"
+        "name": "VidSource",
+        "url": "https://vidsrc.me"
     },
     {
-        "name": "MangaDex",
-        "url": "https://api.mangadex.org/docs/"
+        "name": "Inshorts",
+        "url": "https://inshorts.vercel.app"
     },
     {
         "name": "Jimov",
