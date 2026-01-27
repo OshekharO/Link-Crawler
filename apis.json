@@ -48,6 +48,10 @@
         "url": "https://uncors.vercel.app"
     },
     {
+        "name": "Cors Bypasser",
+        "url": "https://cors-bypasser.vercel.app"
+    },
+    {
         "name": "Myip",
         "url": "https://myip.wtf"
     },
