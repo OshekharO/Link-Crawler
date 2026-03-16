@@ -12,14 +12,6 @@
         "url": "https://api.ipify.org/?format=json"
     },
     {
-        "name": "Enc-Dec",
-        "url": "https://enc-dec.app"
-    },
-    {
-        "name": "Mostream",
-        "url": "https://mostream.us"
-    },
-    {
         "name": "IP-API",
         "url": "http://ip-api.com"
     },
@@ -28,8 +20,16 @@
         "url": "https://api.shortboxed.com"
     },
     {
-        "name": "MangaDex",
-        "url": "https://api.mangadex.org/docs/"
+        "name": "Mostream",
+        "url": "https://mostream.us"
+    },
+    {
+        "name": "111movies",
+        "url": "https://111movies.com"
+    },
+    {
+        "name": "Enc-Dec",
+        "url": "https://enc-dec.app"
     },
     {
         "name": "Consumet",
@@ -40,12 +40,8 @@
         "url": "https://www.nontongo.win"
     },
     {
-        "name": "Myip",
-        "url": "https://myip.wtf"
-    },
-    {
-        "name": "111movies",
-        "url": "https://111movies.com"
+        "name": "MangaDex",
+        "url": "https://api.mangadex.org/docs/"
     },
     {
         "name": "Uncors",
@@ -58,6 +54,10 @@
     {
         "name": "Cors Bypasser",
         "url": "https://cors-bypasser.vercel.app"
+    },
+    {
+        "name": "Myip",
+        "url": "https://myip.wtf"
     },
     {
         "name": "Jimov",
