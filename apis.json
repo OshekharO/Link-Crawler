@@ -1,27 +1,19 @@
 [
     {
-        "name": "GOMO",
-        "url": "https://gomo.to/movie/{imdbId}"
-    },
-    {
         "name": "Warezcdn",
         "url": "https://embed.warezcdn.net/filme/{imdbId}"
+    },
+    {
+        "name": "GOMO",
+        "url": "https://gomo.to/movie/{imdbId}"
     },
     {
         "name": "Ipify",
         "url": "https://api.ipify.org/?format=json"
     },
     {
-        "name": "IP-API",
-        "url": "http://ip-api.com"
-    },
-    {
         "name": "Enc-Dec",
         "url": "https://enc-dec.app"
-    },
-    {
-        "name": "Uncors",
-        "url": "https://uncors.vercel.app"
     },
     {
         "name": "SB Comics",
@@ -32,20 +24,28 @@
         "url": "https://mostream.us"
     },
     {
-        "name": "Consumet",
-        "url": "https://docs.consumet.org"
-    },
-    {
         "name": "111movies",
         "url": "https://111movies.com"
+    },
+    {
+        "name": "Consumet",
+        "url": "https://docs.consumet.org"
     },
     {
         "name": "Nontongo",
         "url": "https://www.nontongo.win"
     },
     {
+        "name": "IP-API",
+        "url": "http://ip-api.com"
+    },
+    {
         "name": "MangaDex",
         "url": "https://api.mangadex.org/docs/"
+    },
+    {
+        "name": "Uncors",
+        "url": "https://uncors.vercel.app"
     },
     {
         "name": "Myip",
