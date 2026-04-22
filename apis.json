@@ -20,6 +20,10 @@
         "url": "https://mostream.us"
     },
     {
+        "name": "SB Comics",
+        "url": "https://api.shortboxed.com"
+    },
+    {
         "name": "Enc-Dec",
         "url": "https://enc-dec.app"
     },
@@ -28,16 +32,12 @@
         "url": "https://docs.consumet.org"
     },
     {
-        "name": "SB Comics",
-        "url": "https://api.shortboxed.com"
+        "name": "111movies",
+        "url": "https://111movies.com"
     },
     {
         "name": "Nontongo",
         "url": "https://www.nontongo.win"
-    },
-    {
-        "name": "111movies",
-        "url": "https://111movies.com"
     },
     {
         "name": "MangaDex",
@@ -52,12 +52,12 @@
         "url": "https://uncors.vercel.app"
     },
     {
-        "name": "Cors Bypasser",
-        "url": "https://cors-bypasser.vercel.app"
-    },
-    {
         "name": "Inshorts",
         "url": "https://inshorts.vercel.app"
+    },
+    {
+        "name": "Cors Bypasser",
+        "url": "https://cors-bypasser.vercel.app"
     },
     {
         "name": "Jimov",
