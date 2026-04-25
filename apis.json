@@ -12,40 +12,40 @@
         "url": "https://api.ipify.org/?format=json"
     },
     {
-        "name": "IP-API",
-        "url": "http://ip-api.com"
-    },
-    {
-        "name": "Mostream",
-        "url": "https://mostream.us"
-    },
-    {
-        "name": "SB Comics",
-        "url": "https://api.shortboxed.com"
+        "name": "Consumet",
+        "url": "https://docs.consumet.org"
     },
     {
         "name": "Enc-Dec",
         "url": "https://enc-dec.app"
     },
     {
-        "name": "Consumet",
-        "url": "https://docs.consumet.org"
+        "name": "IP-API",
+        "url": "http://ip-api.com"
     },
     {
-        "name": "111movies",
-        "url": "https://111movies.com"
+        "name": "Myip",
+        "url": "https://myip.wtf"
     },
     {
-        "name": "Nontongo",
-        "url": "https://www.nontongo.win"
+        "name": "Mostream",
+        "url": "https://mostream.us"
     },
     {
         "name": "MangaDex",
         "url": "https://api.mangadex.org/docs/"
     },
     {
-        "name": "Myip",
-        "url": "https://myip.wtf"
+        "name": "SB Comics",
+        "url": "https://api.shortboxed.com"
+    },
+    {
+        "name": "Nontongo",
+        "url": "https://www.nontongo.win"
+    },
+    {
+        "name": "111movies",
+        "url": "https://111movies.com"
     },
     {
         "name": "Uncors",
