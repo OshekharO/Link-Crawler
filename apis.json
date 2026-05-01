@@ -12,6 +12,10 @@
         "url": "https://api.ipify.org/?format=json"
     },
     {
+        "name": "Enc-Dec",
+        "url": "https://enc-dec.app"
+    },
+    {
         "name": "IP-API",
         "url": "http://ip-api.com"
     },
@@ -20,8 +24,12 @@
         "url": "https://mostream.us"
     },
     {
-        "name": "Enc-Dec",
-        "url": "https://enc-dec.app"
+        "name": "Consumet",
+        "url": "https://docs.consumet.org"
+    },
+    {
+        "name": "111movies",
+        "url": "https://111movies.com"
     },
     {
         "name": "SB Comics",
@@ -32,20 +40,16 @@
         "url": "https://myip.wtf"
     },
     {
-        "name": "111movies",
-        "url": "https://111movies.com"
+        "name": "Nontongo",
+        "url": "https://www.nontongo.win"
     },
     {
-        "name": "Consumet",
-        "url": "https://docs.consumet.org"
+        "name": "Inshorts",
+        "url": "https://inshorts.vercel.app"
     },
     {
         "name": "MangaDex",
         "url": "https://api.mangadex.org/docs/"
-    },
-    {
-        "name": "Nontongo",
-        "url": "https://www.nontongo.win"
     },
     {
         "name": "Uncors",
@@ -54,10 +58,6 @@
     {
         "name": "Cors Bypasser",
         "url": "https://cors-bypasser.vercel.app"
-    },
-    {
-        "name": "Inshorts",
-        "url": "https://inshorts.vercel.app"
     },
     {
         "name": "Jimov",
