@@ -8,12 +8,20 @@
         "url": "https://gomo.to/movie/{imdbId}"
     },
     {
+        "name": "Consumet",
+        "url": "https://docs.consumet.org"
+    },
+    {
         "name": "Ipify",
         "url": "https://api.ipify.org/?format=json"
     },
     {
         "name": "Enc-Dec",
         "url": "https://enc-dec.app"
+    },
+    {
+        "name": "111movies",
+        "url": "https://111movies.com"
     },
     {
         "name": "IP-API",
@@ -24,32 +32,20 @@
         "url": "https://mostream.us"
     },
     {
-        "name": "Consumet",
-        "url": "https://docs.consumet.org"
-    },
-    {
-        "name": "111movies",
-        "url": "https://111movies.com"
-    },
-    {
         "name": "SB Comics",
         "url": "https://api.shortboxed.com"
     },
     {
-        "name": "Myip",
-        "url": "https://myip.wtf"
+        "name": "MangaDex",
+        "url": "https://api.mangadex.org/docs/"
     },
     {
         "name": "Nontongo",
         "url": "https://www.nontongo.win"
     },
     {
-        "name": "Inshorts",
-        "url": "https://inshorts.vercel.app"
-    },
-    {
-        "name": "MangaDex",
-        "url": "https://api.mangadex.org/docs/"
+        "name": "Myip",
+        "url": "https://myip.wtf"
     },
     {
         "name": "Uncors",
@@ -58,6 +54,10 @@
     {
         "name": "Cors Bypasser",
         "url": "https://cors-bypasser.vercel.app"
+    },
+    {
+        "name": "Inshorts",
+        "url": "https://inshorts.vercel.app"
     },
     {
         "name": "Jimov",
