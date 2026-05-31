@@ -1,15 +1,23 @@
 [
     {
-        "name": "Warezcdn",
-        "url": "https://embed.warezcdn.net/filme/{imdbId}"
-    },
-    {
         "name": "GOMO",
         "url": "https://gomo.to/movie/{imdbId}"
     },
     {
+        "name": "Warezcdn",
+        "url": "https://embed.warezcdn.net/filme/{imdbId}"
+    },
+    {
         "name": "Ipify",
         "url": "https://api.ipify.org/?format=json"
+    },
+    {
+        "name": "Mostream",
+        "url": "https://mostream.us"
+    },
+    {
+        "name": "Enc-Dec",
+        "url": "https://enc-dec.app"
     },
     {
         "name": "IP-API",
@@ -20,24 +28,16 @@
         "url": "https://111movies.com"
     },
     {
+        "name": "Jimov",
+        "url": "https://jimov-api-docs.vercel.app"
+    },
+    {
         "name": "SB Comics",
         "url": "https://api.shortboxed.com"
     },
     {
-        "name": "Enc-Dec",
-        "url": "https://enc-dec.app"
-    },
-    {
-        "name": "Mostream",
-        "url": "https://mostream.us"
-    },
-    {
         "name": "Nontongo",
         "url": "https://www.nontongo.win"
-    },
-    {
-        "name": "Cors Bypasser",
-        "url": "https://cors-bypasser.vercel.app"
     },
     {
         "name": "Consumet",
@@ -56,11 +56,11 @@
         "url": "https://uncors.vercel.app"
     },
     {
-        "name": "Inshorts",
-        "url": "https://inshorts.vercel.app"
+        "name": "Cors Bypasser",
+        "url": "https://cors-bypasser.vercel.app"
     },
     {
-        "name": "Jimov",
-        "url": "https://jimov-api-docs.vercel.app"
+        "name": "Inshorts",
+        "url": "https://inshorts.vercel.app"
     }
 ]
