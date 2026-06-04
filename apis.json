@@ -12,32 +12,32 @@
         "url": "https://api.ipify.org/?format=json"
     },
     {
-        "name": "Enc-Dec",
-        "url": "https://enc-dec.app"
+        "name": "Mostream",
+        "url": "https://mostream.us"
     },
     {
         "name": "Jimov",
         "url": "https://jimov-api-docs.vercel.app"
     },
     {
-        "name": "111movies",
-        "url": "https://111movies.com"
-    },
-    {
-        "name": "Mostream",
-        "url": "https://mostream.us"
-    },
-    {
         "name": "IP-API",
         "url": "http://ip-api.com"
     },
     {
-        "name": "SB Comics",
-        "url": "https://api.shortboxed.com"
+        "name": "Enc-Dec",
+        "url": "https://enc-dec.app"
+    },
+    {
+        "name": "111movies",
+        "url": "https://111movies.com"
     },
     {
         "name": "Myip",
         "url": "https://myip.wtf"
+    },
+    {
+        "name": "SB Comics",
+        "url": "https://api.shortboxed.com"
     },
     {
         "name": "MangaDex",
