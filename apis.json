@@ -12,16 +12,20 @@
         "url": "https://api.ipify.org/?format=json"
     },
     {
-        "name": "Enc-Dec",
-        "url": "https://enc-dec.app"
-    },
-    {
-        "name": "Mostream",
-        "url": "https://mostream.us"
+        "name": "IP-API",
+        "url": "http://ip-api.com"
     },
     {
         "name": "Jimov",
         "url": "https://jimov-api-docs.vercel.app"
+    },
+    {
+        "name": "Inshorts",
+        "url": "https://inshorts.vercel.app"
+    },
+    {
+        "name": "Mostream",
+        "url": "https://mostream.us"
     },
     {
         "name": "SB Comics",
@@ -32,8 +36,8 @@
         "url": "https://111movies.com"
     },
     {
-        "name": "IP-API",
-        "url": "http://ip-api.com"
+        "name": "Enc-Dec",
+        "url": "https://enc-dec.app"
     },
     {
         "name": "Myip",
@@ -46,10 +50,6 @@
     {
         "name": "Consumet",
         "url": "https://docs.consumet.org"
-    },
-    {
-        "name": "Inshorts",
-        "url": "https://inshorts.vercel.app"
     },
     {
         "name": "Uncors",
