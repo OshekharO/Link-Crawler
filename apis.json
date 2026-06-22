@@ -20,40 +20,40 @@
         "url": "https://jimov-api-docs.vercel.app"
     },
     {
-        "name": "Inshorts",
-        "url": "https://inshorts.vercel.app"
-    },
-    {
-        "name": "Mostream",
-        "url": "https://mostream.us"
-    },
-    {
         "name": "SB Comics",
         "url": "https://api.shortboxed.com"
-    },
-    {
-        "name": "111movies",
-        "url": "https://111movies.com"
     },
     {
         "name": "Enc-Dec",
         "url": "https://enc-dec.app"
     },
     {
-        "name": "Myip",
-        "url": "https://myip.wtf"
+        "name": "Uncors",
+        "url": "https://uncors.vercel.app"
+    },
+    {
+        "name": "Mostream",
+        "url": "https://mostream.us"
+    },
+    {
+        "name": "111movies",
+        "url": "https://111movies.com"
     },
     {
         "name": "Nontongo",
         "url": "https://www.nontongo.win"
     },
     {
+        "name": "Myip",
+        "url": "https://myip.wtf"
+    },
+    {
         "name": "Consumet",
         "url": "https://docs.consumet.org"
     },
     {
-        "name": "Uncors",
-        "url": "https://uncors.vercel.app"
+        "name": "Inshorts",
+        "url": "https://inshorts.vercel.app"
     },
     {
         "name": "Cors Bypasser",
