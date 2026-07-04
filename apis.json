@@ -24,12 +24,12 @@
         "url": "https://111movies.com"
     },
     {
-        "name": "SB Comics",
-        "url": "https://api.shortboxed.com"
-    },
-    {
         "name": "Enc-Dec",
         "url": "https://enc-dec.app"
+    },
+    {
+        "name": "SB Comics",
+        "url": "https://api.shortboxed.com"
     },
     {
         "name": "Mostream",
