@@ -8,10 +8,6 @@
         "url": "https://gomo.to/movie/{imdbId}"
     },
     {
-        "name": "Jimov",
-        "url": "https://jimov-api-docs.vercel.app"
-    },
-    {
         "name": "Ipify",
         "url": "https://api.ipify.org/?format=json"
     },
@@ -20,8 +16,12 @@
         "url": "https://enc-dec.app"
     },
     {
-        "name": "IP-API",
-        "url": "http://ip-api.com"
+        "name": "Jimov",
+        "url": "https://jimov-api-docs.vercel.app"
+    },
+    {
+        "name": "Mostream",
+        "url": "https://mostream.us"
     },
     {
         "name": "SB Comics",
@@ -32,28 +32,28 @@
         "url": "https://111movies.com"
     },
     {
+        "name": "IP-API",
+        "url": "http://ip-api.com"
+    },
+    {
         "name": "Nontongo",
         "url": "https://www.nontongo.win"
-    },
-    {
-        "name": "Mostream",
-        "url": "https://mostream.us"
-    },
-    {
-        "name": "Consumet",
-        "url": "https://docs.consumet.org"
     },
     {
         "name": "Myip",
         "url": "https://myip.wtf"
     },
     {
-        "name": "Uncors",
-        "url": "https://uncors.vercel.app"
+        "name": "Consumet",
+        "url": "https://docs.consumet.org"
     },
     {
         "name": "Inshorts",
         "url": "https://inshorts.vercel.app"
+    },
+    {
+        "name": "Uncors",
+        "url": "https://uncors.vercel.app"
     },
     {
         "name": "Cors Bypasser",
