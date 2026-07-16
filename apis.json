@@ -8,16 +8,24 @@
         "url": "https://gomo.to/movie/{imdbId}"
     },
     {
-        "name": "Ipify",
-        "url": "https://api.ipify.org/?format=json"
-    },
-    {
         "name": "Enc-Dec",
         "url": "https://enc-dec.app"
     },
     {
+        "name": "Ipify",
+        "url": "https://api.ipify.org/?format=json"
+    },
+    {
+        "name": "IP-API",
+        "url": "http://ip-api.com"
+    },
+    {
         "name": "Jimov",
         "url": "https://jimov-api-docs.vercel.app"
+    },
+    {
+        "name": "Uncors",
+        "url": "https://uncors.vercel.app"
     },
     {
         "name": "Mostream",
@@ -28,20 +36,16 @@
         "url": "https://api.shortboxed.com"
     },
     {
-        "name": "111movies",
-        "url": "https://111movies.com"
-    },
-    {
-        "name": "IP-API",
-        "url": "http://ip-api.com"
+        "name": "Myip",
+        "url": "https://myip.wtf"
     },
     {
         "name": "Nontongo",
         "url": "https://www.nontongo.win"
     },
     {
-        "name": "Myip",
-        "url": "https://myip.wtf"
+        "name": "111movies",
+        "url": "https://111movies.com"
     },
     {
         "name": "Consumet",
@@ -50,10 +54,6 @@
     {
         "name": "Inshorts",
         "url": "https://inshorts.vercel.app"
-    },
-    {
-        "name": "Uncors",
-        "url": "https://uncors.vercel.app"
     },
     {
         "name": "Cors Bypasser",
