@@ -8,10 +8,6 @@
         "url": "https://gomo.to/movie/{imdbId}"
     },
     {
-        "name": "Enc-Dec",
-        "url": "https://enc-dec.app"
-    },
-    {
         "name": "Ipify",
         "url": "https://api.ipify.org/?format=json"
     },
@@ -24,8 +20,8 @@
         "url": "https://jimov-api-docs.vercel.app"
     },
     {
-        "name": "Uncors",
-        "url": "https://uncors.vercel.app"
+        "name": "Enc-Dec",
+        "url": "https://enc-dec.app"
     },
     {
         "name": "Mostream",
@@ -34,6 +30,10 @@
     {
         "name": "SB Comics",
         "url": "https://api.shortboxed.com"
+    },
+    {
+        "name": "Inshorts",
+        "url": "https://inshorts.vercel.app"
     },
     {
         "name": "Myip",
@@ -52,8 +52,8 @@
         "url": "https://docs.consumet.org"
     },
     {
-        "name": "Inshorts",
-        "url": "https://inshorts.vercel.app"
+        "name": "Uncors",
+        "url": "https://uncors.vercel.app"
     },
     {
         "name": "Cors Bypasser",
