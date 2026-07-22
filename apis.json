@@ -12,6 +12,10 @@
         "url": "https://api.ipify.org/?format=json"
     },
     {
+        "name": "Inshorts",
+        "url": "https://inshorts.vercel.app"
+    },
+    {
         "name": "IP-API",
         "url": "http://ip-api.com"
     },
@@ -24,28 +28,24 @@
         "url": "https://enc-dec.app"
     },
     {
-        "name": "Mostream",
-        "url": "https://mostream.us"
-    },
-    {
         "name": "SB Comics",
         "url": "https://api.shortboxed.com"
     },
     {
-        "name": "Inshorts",
-        "url": "https://inshorts.vercel.app"
+        "name": "Mostream",
+        "url": "https://mostream.us"
     },
     {
-        "name": "Myip",
-        "url": "https://myip.wtf"
+        "name": "111movies",
+        "url": "https://111movies.com"
     },
     {
         "name": "Nontongo",
         "url": "https://www.nontongo.win"
     },
     {
-        "name": "111movies",
-        "url": "https://111movies.com"
+        "name": "Myip",
+        "url": "https://myip.wtf"
     },
     {
         "name": "Consumet",
