@@ -8,44 +8,44 @@
         "url": "https://gomo.to/movie/{imdbId}"
     },
     {
-        "name": "Ipify",
-        "url": "https://api.ipify.org/?format=json"
-    },
-    {
         "name": "Inshorts",
         "url": "https://inshorts.vercel.app"
-    },
-    {
-        "name": "IP-API",
-        "url": "http://ip-api.com"
     },
     {
         "name": "Jimov",
         "url": "https://jimov-api-docs.vercel.app"
     },
     {
-        "name": "Enc-Dec",
-        "url": "https://enc-dec.app"
-    },
-    {
-        "name": "SB Comics",
-        "url": "https://api.shortboxed.com"
-    },
-    {
-        "name": "Mostream",
-        "url": "https://mostream.us"
+        "name": "Ipify",
+        "url": "https://api.ipify.org/?format=json"
     },
     {
         "name": "111movies",
         "url": "https://111movies.com"
     },
     {
-        "name": "Nontongo",
-        "url": "https://www.nontongo.win"
+        "name": "IP-API",
+        "url": "http://ip-api.com"
     },
     {
         "name": "Myip",
         "url": "https://myip.wtf"
+    },
+    {
+        "name": "Enc-Dec",
+        "url": "https://enc-dec.app"
+    },
+    {
+        "name": "Mostream",
+        "url": "https://mostream.us"
+    },
+    {
+        "name": "SB Comics",
+        "url": "https://api.shortboxed.com"
+    },
+    {
+        "name": "Nontongo",
+        "url": "https://www.nontongo.win"
     },
     {
         "name": "Consumet",
