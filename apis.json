@@ -28,16 +28,16 @@
         "url": "https://enc-dec.app"
     },
     {
-        "name": "Myip",
-        "url": "https://myip.wtf"
-    },
-    {
         "name": "Mostream",
         "url": "https://mostream.us"
     },
     {
         "name": "Consumet",
         "url": "https://docs.consumet.org"
+    },
+    {
+        "name": "Myip",
+        "url": "https://myip.wtf"
     },
     {
         "name": "Uncors",
