@@ -12,6 +12,10 @@
         "url": "https://api.ipify.org/?format=json"
     },
     {
+        "name": "Mostream",
+        "url": "https://mostream.us"
+    },
+    {
         "name": "IP-API",
         "url": "http://ip-api.com"
     },
@@ -28,20 +32,12 @@
         "url": "https://enc-dec.app"
     },
     {
-        "name": "Mostream",
-        "url": "https://mostream.us"
-    },
-    {
-        "name": "Consumet",
-        "url": "https://docs.consumet.org"
+        "name": "Uncors",
+        "url": "https://uncors.vercel.app"
     },
     {
         "name": "Myip",
         "url": "https://myip.wtf"
-    },
-    {
-        "name": "Uncors",
-        "url": "https://uncors.vercel.app"
     },
     {
         "name": "Inshorts",
@@ -50,5 +46,9 @@
     {
         "name": "Cors Bypasser",
         "url": "https://cors-bypasser.vercel.app"
+    },
+    {
+        "name": "Consumet",
+        "url": "https://docs.consumet.org"
     }
 ]
