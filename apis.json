@@ -12,32 +12,36 @@
         "url": "https://api.ipify.org/?format=json"
     },
     {
-        "name": "Mostream",
-        "url": "https://mostream.us"
+        "name": "Uncors",
+        "url": "https://uncors.vercel.app"
     },
     {
         "name": "IP-API",
         "url": "http://ip-api.com"
     },
     {
-        "name": "Jimov",
-        "url": "https://jimov-api-docs.vercel.app"
+        "name": "Mostream",
+        "url": "https://mostream.us"
     },
     {
         "name": "SB Comics",
         "url": "https://api.shortboxed.com"
     },
     {
-        "name": "Enc-Dec",
-        "url": "https://enc-dec.app"
-    },
-    {
-        "name": "Uncors",
-        "url": "https://uncors.vercel.app"
-    },
-    {
         "name": "Myip",
         "url": "https://myip.wtf"
+    },
+    {
+        "name": "Jimov",
+        "url": "https://jimov-api-docs.vercel.app"
+    },
+    {
+        "name": "Consumet",
+        "url": "https://docs.consumet.org"
+    },
+    {
+        "name": "Enc-Dec",
+        "url": "https://enc-dec.app"
     },
     {
         "name": "Inshorts",
@@ -46,9 +50,5 @@
     {
         "name": "Cors Bypasser",
         "url": "https://cors-bypasser.vercel.app"
-    },
-    {
-        "name": "Consumet",
-        "url": "https://docs.consumet.org"
     }
 ]
