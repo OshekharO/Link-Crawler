@@ -12,12 +12,12 @@
         "url": "https://api.ipify.org/?format=json"
     },
     {
-        "name": "Uncors",
-        "url": "https://uncors.vercel.app"
-    },
-    {
         "name": "IP-API",
         "url": "http://ip-api.com"
+    },
+    {
+        "name": "Jimov",
+        "url": "https://jimov-api-docs.vercel.app"
     },
     {
         "name": "Mostream",
@@ -28,27 +28,27 @@
         "url": "https://api.shortboxed.com"
     },
     {
-        "name": "Myip",
-        "url": "https://myip.wtf"
-    },
-    {
-        "name": "Jimov",
-        "url": "https://jimov-api-docs.vercel.app"
-    },
-    {
         "name": "Consumet",
         "url": "https://docs.consumet.org"
+    },
+    {
+        "name": "Myip",
+        "url": "https://myip.wtf"
     },
     {
         "name": "Enc-Dec",
         "url": "https://enc-dec.app"
     },
     {
-        "name": "Inshorts",
-        "url": "https://inshorts.vercel.app"
+        "name": "Uncors",
+        "url": "https://uncors.vercel.app"
     },
     {
         "name": "Cors Bypasser",
         "url": "https://cors-bypasser.vercel.app"
+    },
+    {
+        "name": "Inshorts",
+        "url": "https://inshorts.vercel.app"
     }
 ]
