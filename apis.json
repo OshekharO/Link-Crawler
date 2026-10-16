@@ -1,47 +1,47 @@
 [
     {
-        "name": "GOMO",
-        "url": "https://gomo.to/movie/{imdbId}"
-    },
-    {
         "name": "Warezcdn",
         "url": "https://embed.warezcdn.net/filme/{imdbId}"
     },
     {
-        "name": "Jimov",
-        "url": "https://jimov-api-docs.vercel.app"
-    },
-    {
-        "name": "Ipify",
-        "url": "https://api.ipify.org/?format=json"
-    },
-    {
-        "name": "Uncors",
-        "url": "https://uncors.vercel.app"
-    },
-    {
-        "name": "Mostream",
-        "url": "https://mostream.us"
+        "name": "GOMO",
+        "url": "https://gomo.to/movie/{imdbId}"
     },
     {
         "name": "IP-API",
         "url": "http://ip-api.com"
     },
     {
-        "name": "Myip",
-        "url": "https://myip.wtf"
+        "name": "Ipify",
+        "url": "https://api.ipify.org/?format=json"
     },
     {
         "name": "SB Comics",
         "url": "https://api.shortboxed.com"
     },
     {
+        "name": "Jimov",
+        "url": "https://jimov-api-docs.vercel.app"
+    },
+    {
+        "name": "Mostream",
+        "url": "https://mostream.us"
+    },
+    {
         "name": "Consumet",
         "url": "https://docs.consumet.org"
     },
     {
+        "name": "Myip",
+        "url": "https://myip.wtf"
+    },
+    {
         "name": "Enc-Dec",
         "url": "https://enc-dec.app"
+    },
+    {
+        "name": "Uncors",
+        "url": "https://uncors.vercel.app"
     },
     {
         "name": "Inshorts",
