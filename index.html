@@ -61,6 +61,16 @@
         text-decoration: underline;
       }
 
+      .status-online {
+        color: #43b581;
+        font-weight: bold;
+      }
+
+      .status-offline {
+        color: #f04747;
+        font-weight: bold;
+      }
+
       @media screen and (max-width: 600px) {
         td {
           font-size: 12px;
@@ -85,6 +95,7 @@
           <tr>
             <th>NAME</th>
             <th>URL</th>
+            <th>STATUS</th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -98,10 +109,14 @@
 
             // ITERATING THROUGH OBJECTS
             $.each(data, function (key, value) {
+              var status = value.status ? value.status.toLowerCase() : "online";
+              var statusClass = status === "offline" ? "status-offline" : "status-online";
+
               //CONSTRUCTION OF ROWS HAVING DATA FROM JSON OBJECT
               items += "<tr>";
               items += "<td>" + value.name + "</td>";
               items += "<td><a href='" + value.url + "' target='_blank'>" + value.url + "</a></td>";
+              items += "<td class='" + statusClass + "'>" + status + "</td>";
               items += "</tr>";
             });
 

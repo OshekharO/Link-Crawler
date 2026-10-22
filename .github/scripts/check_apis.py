@@ -6,22 +6,20 @@ from urllib.parse import urlparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 def check_url(api_entry):
-    """Check if a URL is accessible"""
-    name = api_entry['name']
-    url = api_entry['url']
+    """Check if a URL is accessible and update status"""
+    entry = dict(api_entry)
+    name = entry['name']
+    url = entry['url']
     
-    # Skip URLs with placeholders like {imdbId}
+    # URLs with placeholders like {imdbId} default to online (or skip live request)
     if '{' in url and '}' in url:
-        print(f"⚠️  Skipping {name} (contains placeholders): {url}")
-        return api_entry, True
+        print(f"⚠️  Skipping live check for {name} (contains placeholders): {url}")
+        entry['status'] = 'online'
+        return entry
     
     try:
-        # Clean the URL for checking
         clean_url = url
-        
-        # For documentation URLs, try to get the main page
         if any(domain in url for domain in ['docs.', 'documentation']):
-            # Try to get the root documentation page
             parsed = urlparse(url)
             clean_url = f"{parsed.scheme}://{parsed.netloc}"
         
@@ -36,17 +34,18 @@ def check_url(api_entry):
             allow_redirects=True
         )
         
-        # Consider 2xx and 3xx status codes as working
         if response.status_code < 400:
-            print(f"✅ {name} is working: {url}")
-            return api_entry, True
+            print(f"✅ {name} is online: {url}")
+            entry['status'] = 'online'
         else:
             print(f"❌ {name} returned status {response.status_code}: {url}")
-            return api_entry, False
+            entry['status'] = 'offline'
             
     except requests.exceptions.RequestException as e:
         print(f"❌ {name} failed with error: {e}")
-        return api_entry, False
+        entry['status'] = 'offline'
+
+    return entry
 
 def main():
     # Read the current APIs file
@@ -55,33 +54,29 @@ def main():
     
     print(f"Checking {len(apis)} API URLs...")
     
-    # Check all URLs concurrently for better performance
-    working_apis = []
+    updated_apis = [None] * len(apis)
     
     with ThreadPoolExecutor(max_workers=10) as executor:
-        future_to_api = {executor.submit(check_url, api): api for api in apis}
+        future_to_index = {executor.submit(check_url, api): i for i, api in enumerate(apis)}
         
-        for future in as_completed(future_to_api):
-            api_entry, is_working = future.result()
-            if is_working:
-                working_apis.append(api_entry)
+        for future in as_completed(future_to_index):
+            i = future_to_index[future]
+            updated_apis[i] = future.result()
     
+    online_count = sum(1 for api in updated_apis if api.get('status') == 'online')
+    offline_count = sum(1 for api in updated_apis if api.get('status') == 'offline')
+
     print(f"\nResults:")
-    print(f"Total APIs: {len(apis)}")
-    print(f"Working APIs: {len(working_apis)}")
-    print(f"Broken APIs removed: {len(apis) - len(working_apis)}")
+    print(f"Total APIs: {len(updated_apis)}")
+    print(f"Online APIs: {online_count}")
+    print(f"Offline APIs: {offline_count}")
     
     # Write the updated list back to the file
     with open('apis.json', 'w', encoding='utf-8') as f:
-        json.dump(working_apis, f, indent=4, ensure_ascii=False)
+        json.dump(updated_apis, f, indent=4, ensure_ascii=False)
     
-    # Set output for the workflow
-    if len(working_apis) < len(apis):
-        print("Changes detected - file will be updated")
-        sys.exit(0)  # Success with changes
-    else:
-        print("No changes needed")
-        sys.exit(0)  # Success without changes
+    print("apis.json successfully updated.")
+    sys.exit(0)
 
 if __name__ == "__main__":
     main()
