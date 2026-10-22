@@ -32,5 +32,5 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add apis.json
-        git diff --staged --quiet || git commit -m "Update APIs: Remove broken URLs"
+        git diff --staged --quiet || git commit -m "Update APIs: Update online/offline status"
         git push

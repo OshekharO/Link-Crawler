@@ -1,54 +1,67 @@
 [
     {
         "name": "GOMO",
-        "url": "https://gomo.to/movie/{imdbId}"
+        "url": "https://gomo.to/movie/{imdbId}",
+        "status": "online"
     },
     {
         "name": "Warezcdn",
-        "url": "https://embed.warezcdn.net/filme/{imdbId}"
+        "url": "https://embed.warezcdn.net/filme/{imdbId}",
+        "status": "online"
     },
     {
         "name": "Jimov",
-        "url": "https://jimov-api-docs.vercel.app"
+        "url": "https://jimov-api-docs.vercel.app",
+        "status": "online"
     },
     {
         "name": "IP-API",
-        "url": "http://ip-api.com"
+        "url": "http://ip-api.com",
+        "status": "online"
     },
     {
         "name": "SB Comics",
-        "url": "https://api.shortboxed.com"
+        "url": "https://api.shortboxed.com",
+        "status": "online"
     },
     {
         "name": "Mostream",
-        "url": "https://mostream.us"
+        "url": "https://mostream.us",
+        "status": "online"
     },
     {
         "name": "Uncors",
-        "url": "https://uncors.vercel.app"
+        "url": "https://uncors.vercel.app",
+        "status": "online"
     },
     {
         "name": "Enc-Dec",
-        "url": "https://enc-dec.app"
+        "url": "https://enc-dec.app",
+        "status": "online"
     },
     {
         "name": "Ipify",
-        "url": "https://api.ipify.org/?format=json"
+        "url": "https://api.ipify.org/?format=json",
+        "status": "online"
     },
     {
         "name": "Myip",
-        "url": "https://myip.wtf"
+        "url": "https://myip.wtf",
+        "status": "online"
     },
     {
         "name": "Consumet",
-        "url": "https://docs.consumet.org"
+        "url": "https://docs.consumet.org",
+        "status": "online"
     },
     {
         "name": "Inshorts",
-        "url": "https://inshorts.vercel.app"
+        "url": "https://inshorts.vercel.app",
+        "status": "online"
     },
     {
         "name": "Cors Bypasser",
-        "url": "https://cors-bypasser.vercel.app"
+        "url": "https://cors-bypasser.vercel.app",
+        "status": "online"
     }
 ]
