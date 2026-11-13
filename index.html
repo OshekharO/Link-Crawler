@@ -103,6 +103,9 @@
       <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
       <script>
         $(document).ready(function () {
+          // Display loading state while fetching apis.json
+          $("#table tbody").html("<tr><td colspan='3' style='text-align: center; color: #7289da;'>Loading APIs...</td></tr>");
+
           // FETCHING DATA FROM JSON FILE
           $.getJSON("apis.json", function (data) {
             var items = "";
@@ -121,7 +124,10 @@
             });
 
             //INSERTING ROWS INTO TABLE
-            $("#table tbody").append(items);
+            $("#table tbody").html(items);
+          }).fail(function () {
+            // Display graceful error message on failure
+            $("#table tbody").html("<tr><td colspan='3' class='status-offline' style='text-align: center;'>Failed to load API status. Please try again later.</td></tr>");
           });
         });
       </script>

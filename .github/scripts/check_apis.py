@@ -2,8 +2,21 @@ import json
 import requests
 import sys
 import os
+import threading
 from urllib.parse import urlparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
+
+thread_local = threading.local()
+
+def get_session():
+    """Get thread-local requests session for connection reuse (HTTP keep-alive)."""
+    if not hasattr(thread_local, "session"):
+        session = requests.Session()
+        session.headers.update({
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        })
+        thread_local.session = session
+    return thread_local.session
 
 def check_url(api_entry):
     """Check if a URL is accessible and update status"""
@@ -23,13 +36,9 @@ def check_url(api_entry):
             parsed = urlparse(url)
             clean_url = f"{parsed.scheme}://{parsed.netloc}"
         
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-        }
-        
-        response = requests.get(
+        session = get_session()
+        response = session.get(
             clean_url, 
-            headers=headers, 
             timeout=20,
             allow_redirects=True
         )
@@ -48,9 +57,16 @@ def check_url(api_entry):
     return entry
 
 def main():
-    # Read the current APIs file
-    with open('apis.json', 'r', encoding='utf-8') as f:
-        apis = json.load(f)
+    # Read the current APIs file with robust error handling
+    try:
+        with open('apis.json', 'r', encoding='utf-8') as f:
+            apis = json.load(f)
+    except FileNotFoundError:
+        print("❌ Error: apis.json file not found.")
+        sys.exit(1)
+    except json.JSONDecodeError as e:
+        print(f"❌ Error: Failed to parse apis.json as valid JSON: {e}")
+        sys.exit(1)
     
     print(f"Checking {len(apis)} API URLs...")
     
