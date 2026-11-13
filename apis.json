@@ -1,10 +1,5 @@
 [
     {
-        "name": "Consumet",
-        "url": "https://docs.consumet.org",
-        "status": "online"
-    },
-    {
         "name": "Cors Bypasser",
         "url": "https://cors-bypasser.vercel.app",
         "status": "online"
