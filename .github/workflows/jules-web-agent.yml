@@ -9,7 +9,7 @@ on:
       gemini_model:
         description: 'Gemini model to run'
         required: false
-        default: 'gemini-2.5-flash'
+        default: 'gemini-3.5-flash-lite'
         type: string
 jobs:
   run-gemini:
@@ -28,5 +28,46 @@ jobs:
       - uses: google-github-actions/run-gemini-cli@v0
         with:
           gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
-          prompt: ${{ inputs.user_prompt }}
+          prompt: |
+            You are running in a GitHub Actions checkout of this repository.
+            Make the requested changes directly in the working tree. Do not commit or push; a later step commits and opens a pull request.
+
+            Request: ${{ inputs.user_prompt }}
           gemini_model: ${{ inputs.gemini_model }}
+      - name: Commit changes and open a pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          USER_PROMPT: ${{ inputs.user_prompt }}
+        run: |
+          set -euo pipefail
+
+          # The action writes these into the workspace; never commit them.
+          printf '%s\n' '.gemini/' 'gemini-artifacts/' 'gha-creds-*.json' >> .git/info/exclude
+
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo 'Gemini CLI made no file changes; skipping pull request.'
+            exit 0
+          fi
+
+          git config user.name 'jules-web[bot]'
+          git config user.email 'jules-web[bot]@users.noreply.github.com'
+
+          branch="jules/run-$GITHUB_RUN_ID"
+          git checkout -b "$branch"
+          git add -A
+          git commit -m "Apply Gemini CLI changes from run $GITHUB_RUN_ID [skip ci]"
+          git push --set-upstream origin "$branch"
+
+          body_file="$(mktemp)"
+          {
+            echo "Automated changes from the Jules Web Agent workflow (run $GITHUB_RUN_ID)."
+            echo
+            echo '### Prompt'
+            echo
+            echo '```'
+            printf '%s\n' "$USER_PROMPT"
+            echo '```'
+          } > "$body_file"
+
+          title="Gemini CLI: $(printf '%s' "$USER_PROMPT" | head -n 1 | cut -c 1-72)"
+          gh pr create --base "$GITHUB_REF_NAME" --head "$branch" --title "$title" --body-file "$body_file"
