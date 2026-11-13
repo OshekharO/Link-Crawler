@@ -42,7 +42,7 @@ jobs:
           set -euo pipefail
 
           # The action writes these into the workspace; never commit them.
-          printf '%s\n' '.gemini/' 'gemini-artifacts/' 'gha-creds-*.json' >> .git/info/exclude
+          printf '%s\n' '.gemini/' 'gemini-artifacts/' 'gha-creds-*.json' '__pycache__/' '*.pyc' 'node_modules/' >> .git/info/exclude
 
           if [[ -z "$(git status --porcelain)" ]]; then
             echo 'Gemini CLI made no file changes; skipping pull request.'
@@ -69,5 +69,8 @@ jobs:
             echo '```'
           } > "$body_file"
 
-          title="Gemini CLI: $(printf '%s' "$USER_PROMPT" | head -n 1 | cut -c 1-72)"
+          # Bash substring, not `head`: head closes the pipe and pipefail turns
+          # the resulting SIGPIPE into a step failure for large prompts.
+          first_line="${USER_PROMPT%%$'\n'*}"
+          title="Gemini CLI: ${first_line:0:72}"
           gh pr create --base "$GITHUB_REF_NAME" --head "$branch" --title "$title" --body-file "$body_file"
