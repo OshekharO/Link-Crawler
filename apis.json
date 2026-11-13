@@ -1,37 +1,12 @@
 [
     {
-        "name": "GOMO",
-        "url": "https://gomo.to/movie/{imdbId}",
+        "name": "Consumet",
+        "url": "https://docs.consumet.org",
         "status": "online"
     },
     {
-        "name": "Warezcdn",
-        "url": "https://embed.warezcdn.net/filme/{imdbId}",
-        "status": "online"
-    },
-    {
-        "name": "Jimov",
-        "url": "https://jimov-api-docs.vercel.app",
-        "status": "online"
-    },
-    {
-        "name": "IP-API",
-        "url": "http://ip-api.com",
-        "status": "online"
-    },
-    {
-        "name": "SB Comics",
-        "url": "https://api.shortboxed.com",
-        "status": "online"
-    },
-    {
-        "name": "Mostream",
-        "url": "https://mostream.us",
-        "status": "online"
-    },
-    {
-        "name": "Uncors",
-        "url": "https://uncors.vercel.app",
+        "name": "Cors Bypasser",
+        "url": "https://cors-bypasser.vercel.app",
         "status": "online"
     },
     {
@@ -40,18 +15,8 @@
         "status": "online"
     },
     {
-        "name": "Ipify",
-        "url": "https://api.ipify.org/?format=json",
-        "status": "online"
-    },
-    {
-        "name": "Myip",
-        "url": "https://myip.wtf",
-        "status": "online"
-    },
-    {
-        "name": "Consumet",
-        "url": "https://docs.consumet.org",
+        "name": "GOMO",
+        "url": "https://gomo.to/movie/{imdbId}",
         "status": "online"
     },
     {
@@ -60,8 +25,43 @@
         "status": "online"
     },
     {
-        "name": "Cors Bypasser",
-        "url": "https://cors-bypasser.vercel.app",
+        "name": "IP-API",
+        "url": "http://ip-api.com",
+        "status": "online"
+    },
+    {
+        "name": "Ipify",
+        "url": "https://api.ipify.org/?format=json",
+        "status": "online"
+    },
+    {
+        "name": "Jimov",
+        "url": "https://jimov-api-docs.vercel.app",
+        "status": "online"
+    },
+    {
+        "name": "Mostream",
+        "url": "https://mostream.us",
+        "status": "online"
+    },
+    {
+        "name": "Myip",
+        "url": "https://myip.wtf",
+        "status": "online"
+    },
+    {
+        "name": "SB Comics",
+        "url": "https://api.shortboxed.com",
+        "status": "online"
+    },
+    {
+        "name": "Uncors",
+        "url": "https://uncors.vercel.app",
+        "status": "online"
+    },
+    {
+        "name": "Warezcdn",
+        "url": "https://embed.warezcdn.net/filme/{imdbId}",
         "status": "online"
     }
 ]

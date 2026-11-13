@@ -103,25 +103,44 @@
       <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
       <script>
         $(document).ready(function () {
-          // FETCHING DATA FROM JSON FILE
+          // FETCHING DATA FROM JSON FILE WITH ERROR HANDLING
           $.getJSON("apis.json", function (data) {
-            var items = "";
+            if (!Array.isArray(data)) {
+              data = Object.values(data);
+            }
 
-            // ITERATING THROUGH OBJECTS
+            // Sort APIs alphabetically by name for better UX
+            data.sort(function (a, b) {
+              var nameA = (a.name || "").toLowerCase();
+              var nameB = (b.name || "").toLowerCase();
+              return nameA.localeCompare(nameB);
+            });
+
+            var $tbody = $("#table tbody");
+            $tbody.empty();
+
+            // ITERATING THROUGH OBJECTS WITH SAFE DOM RENDERING (XSS PREVENTION)
             $.each(data, function (key, value) {
               var status = value.status ? value.status.toLowerCase() : "online";
               var statusClass = status === "offline" ? "status-offline" : "status-online";
 
-              //CONSTRUCTION OF ROWS HAVING DATA FROM JSON OBJECT
-              items += "<tr>";
-              items += "<td>" + value.name + "</td>";
-              items += "<td><a href='" + value.url + "' target='_blank'>" + value.url + "</a></td>";
-              items += "<td class='" + statusClass + "'>" + status + "</td>";
-              items += "</tr>";
+              var $tr = $("<tr>");
+              
+              var $tdName = $("<td>").text(value.name || "");
+              
+              var $tdUrl = $("<td>");
+              var $a = $("<a>").attr("href", value.url || "#").attr("target", "_blank").text(value.url || "");
+              $tdUrl.append($a);
+              
+              var $tdStatus = $("<td>").addClass(statusClass).text(status);
+              
+              $tr.append($tdName, $tdUrl, $tdStatus);
+              $tbody.append($tr);
             });
-
-            //INSERTING ROWS INTO TABLE
-            $("#table tbody").append(items);
+          }).fail(function (jqxhr, textStatus, error) {
+            console.error("Failed to load apis.json:", textStatus, error);
+            var $tbody = $("#table tbody");
+            $tbody.html("<tr><td colspan='3' style='text-align: center; color: #f04747;'>Failed to load API details. Please try again later.</td></tr>");
           });
         });
       </script>
